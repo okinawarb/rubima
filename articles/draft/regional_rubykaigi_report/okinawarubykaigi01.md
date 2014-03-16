@@ -300,3 +300,29 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 
 [沖縄IT勉強会カレンダー](https://sites.google.com/site/nmtysh/okinawa-it-seminar-calendar)に直近の勉強会やコミュニティの情報がたくさん載っているので、みなさん、沖縄で会いましょう
 !
+
+
+### 「るびまの話」@gunjisatoshi
+* 発表者
+    * [@gunjisatoshi](https://twitter.com/gunjisatoshi)
+* 資料
+    * なし
+
+沖縄のRubyistもお世話になっている、[Rubyist Magazine](http://magazine.rubyist.net/)、略称「るびま」のおはなし。
+なんと今年の9月に10周年になるそうです。
+
+- Rubyist Magazineの編集プロセス
+- あなたにも出来る貢献
+
+についてお話してくださいました。
+
+進捗管理は[GitHub Issues](https://github.com/rubima/rubima/issues)をWatchすると編集部がどんなことをやっているか
+見ることが出来るらしいです。早速Watchしました!
+
+- 記事を読んでフィードバックを送る
+- 記事を投稿する
+- 企画の提案をする
+- システム(Hiki)の不具合を直す
+- 編集者コミュニティへ参加する
+
+などなどいろいろな貢献方法があるそうです。
