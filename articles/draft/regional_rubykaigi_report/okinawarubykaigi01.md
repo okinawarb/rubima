@@ -271,3 +271,32 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 
 また田中さんが大学で行っている研究としてmrubyに特化したハードウェアの開発の紹介がありました。
 研究の例としてmrubyのメソッド呼び出し時に頻繁に使われるハッシュ関数をLSIチップ上で実装し、文字列操作を行うプログラムの性能を20%上昇させることに成功したらしいです。
+
+## Lightning Talks 3
+### 「RubyKaigiの話」@kakutani
+* 発表者
+    * [@kakutani](https://twitter.com/kakutani)
+* 資料
+    * [All About Ruby-no-Kai in Okinawa RubyKaigi 01 // Speaker Deck](https://speakerdeck.com/kakutani/all-about-ruby-no-kai-in-okinawa-rubykaigi-01)
+
+[日本Rubyの会](http://ruby-no-kai.org/)から来た[@kakutani](https://twitter.com/kakutani)さん。
+まずはじめに、一番大事なこととして、今年の9/18〜9/20に行われる[RubyKaigi 2014](http://rubykaigi.org/2014)と、
+間を開けず来年4/9〜4/11日に行われる[RubyKaigi 2015](http://rubykaigi.org/2015)の告知をしてくださいました。
+
+日本Rubyの会ではRubyistの活動を支援しており、[るびま](http://magazine.rubyist.net/)や[るりま](http://docs.ruby-lang.org/ja/)、[Regional RubyKaigi](http://regional.rubykaigi.org/)、[Rails Girls](http://railsgirls.jp/)などの開催の支援しているそうです。
+
+最後に、大事なのは活動、みなさんがコミュニティだ、ということで、沖縄で続けていってほしいとおっしゃっていました。
+
+沖縄には
+
+- [Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)
+- [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)
+- [ryudai.rb](http://lingr.com/room/ryudairb)
+- [Hackers Champloo](http://hackers-champloo.org/)
+- gFab
+- [ギークハウス沖縄](http://text.geeoki.com/)
+
+の他にもたくさんコミュニティがあります。
+
+[沖縄IT勉強会カレンダー](https://sites.google.com/site/nmtysh/okinawa-it-seminar-calendar)に直近の勉強会やコミュニティの情報がたくさん載っているので、みなさん、沖縄で会いましょう
+!
