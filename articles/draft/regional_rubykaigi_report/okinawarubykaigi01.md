@@ -308,6 +308,8 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 * 資料
     * なし
 
+![るびまの話、講演者の画像](okinawarubykaigi01/gunjisatoshi.jpg)
+
 沖縄のRubyistもお世話になっている、[Rubyist Magazine](http://magazine.rubyist.net/)、略称「るびま」のおはなし。
 なんと今年の9月に10周年になるそうです。
 
