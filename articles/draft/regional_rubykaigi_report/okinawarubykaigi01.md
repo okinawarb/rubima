@@ -130,6 +130,8 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 
 ### ギークハウス沖縄 @kimihito_
+![kimihito_](okinawarubykaigi01/kimihito_.jpg)
+
 [@kimihito_](https://twitter.com/kimihito_)さんによるギークハウス沖縄の紹介では、全国におよそ17ヶ所ある[ギークハウス](http://geekhouse.tumblr.com/)の説明と、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
 
 
