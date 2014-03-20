@@ -102,6 +102,8 @@ Rubyの初心者、プログラミング初心者が多いのが特徴で、「�
 ### Ryudai.rb
 [@_simanman](https://twitter.com/_simanman)さんによる[ryudai.rb](http://lingr.com/room/ryudairb)の紹介でした。
 
+![_simanman](okinawarubykaigi01/_simanman.jpg)
+
 沖縄Ruby会議01の日がちょうど設立1周年。コミュニティの維持についての悩みを話していました。
 
 ### Okinawa.rb
