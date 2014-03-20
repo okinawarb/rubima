@@ -279,6 +279,8 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 * 資料
     * [All About Ruby-no-Kai in Okinawa RubyKaigi 01 // Speaker Deck](https://speakerdeck.com/kakutani/all-about-ruby-no-kai-in-okinawa-rubykaigi-01)
 
+![RubyKaigiの話、講演者の画像](okinawarubykaigi01/kakutani.jpg)
+
 [日本Rubyの会](http://ruby-no-kai.org/)から来た[@kakutani](https://twitter.com/kakutani)さん。
 まずはじめに、一番大事なこととして、今年の9/18〜9/20に行われる[RubyKaigi 2014](http://rubykaigi.org/2014)と、
 間を開けず来年4/9〜4/11日に行われる[RubyKaigi 2015](http://rubykaigi.org/2015)の告知をしてくださいました。
