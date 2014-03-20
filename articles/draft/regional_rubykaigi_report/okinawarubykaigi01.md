@@ -354,3 +354,12 @@ RSpec::Matchers.define(:matchers_name) do |expected|
   end
 end
 ```
+
+### 「1,000,000yen Salesforce1 Platform Mobile Hack Challenge」@ayumin
+* 発表者
+    * [@ayumin](https://twitter.com/ayumin)
+* 資料
+    * なし
+
+るびまに掲載される頃には応募が終了しているかもしれませんが、[
+Salesforce1 Platform モバイル開発チャレンジ](http://events.developerforce.com/ja/contests/challengejapan2014)の開催告知でした。
