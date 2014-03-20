@@ -343,6 +343,8 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 * 資料
     * [Suggestion-for-RSpec-Custom-matcher // Speaker Deck](https://speakerdeck.com/moro/suggestion-for-rspec-custom-matcher)
 
+![カスタムマッチャーを流行らせたい、講演者の画像](okinawarubykaigi01/moro.jpg)
+
 RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる! 楽しくなる!という話でした。
 
 真偽値を返す`match`を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
