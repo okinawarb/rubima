@@ -283,3 +283,105 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 
 また田中さんが大学で行っている研究としてmrubyに特化したハードウェアの開発の紹介がありました。
 研究の例としてmrubyのメソッド呼び出し時に頻繁に使われるハッシュ関数をLSIチップ上で実装し、文字列操作を行うプログラムの性能を20%上昇させることに成功したらしいです。
+
+## Lightning Talks 3
+### 「RubyKaigiの話」@kakutani
+* 発表者
+    * [@kakutani](https://twitter.com/kakutani)
+* 資料
+    * [All About Ruby-no-Kai in Okinawa RubyKaigi 01 // Speaker Deck](https://speakerdeck.com/kakutani/all-about-ruby-no-kai-in-okinawa-rubykaigi-01)
+
+![RubyKaigiの話、講演者の画像](okinawarubykaigi01/kakutani.jpg)
+
+[日本Rubyの会](http://ruby-no-kai.org/)から来た[@kakutani](https://twitter.com/kakutani)さん。
+まずはじめに、一番大事なこととして、今年の9/18〜9/20に行われる[RubyKaigi 2014](http://rubykaigi.org/2014)と、
+間を開けず来年4/9〜4/11日に行われる[RubyKaigi 2015](http://rubykaigi.org/2015)の告知をしてくださいました。
+
+日本Rubyの会ではRubyistの活動を支援しており、[るびま](http://magazine.rubyist.net/)や[るりま](http://docs.ruby-lang.org/ja/)、[Regional RubyKaigi](http://regional.rubykaigi.org/)、[Rails Girls](http://railsgirls.jp/)などの開催の支援しているそうです。
+
+最後に、大事なのは活動、みなさんがコミュニティだ、ということで、沖縄で続けていってほしいとおっしゃっていました。
+
+沖縄には
+
+- [Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)
+- [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)
+- [ryudai.rb](http://lingr.com/room/ryudairb)
+- [Hackers Champloo](http://hackers-champloo.org/)
+- gFab
+- [ギークハウス沖縄](http://text.geeoki.com/)
+
+の他にもたくさんコミュニティがあります。
+
+[沖縄IT勉強会カレンダー](https://sites.google.com/site/nmtysh/okinawa-it-seminar-calendar)に直近の勉強会やコミュニティの情報がたくさん載っているので、みなさん、沖縄で会いましょう
+!
+
+
+### 「るびまの話」@gunjisatoshi
+* 発表者
+    * [@gunjisatoshi](https://twitter.com/gunjisatoshi)
+* 資料
+    * なし
+
+![るびまの話、講演者の画像](okinawarubykaigi01/gunjisatoshi.jpg)
+
+沖縄のRubyistもお世話になっている、[Rubyist Magazine](http://magazine.rubyist.net/)、略称「るびま」のおはなし。
+なんと今年の9月に10周年になるそうです。
+
+- Rubyist Magazineの編集プロセス
+- あなたにも出来る貢献
+
+についてお話してくださいました。
+
+進捗管理は[GitHub Issues](https://github.com/rubima/rubima/issues)をWatchすると編集部がどんなことをやっているか
+見ることが出来るらしいです。早速Watchしました!
+
+- 記事を読んでフィードバックを送る
+- 記事を投稿する
+- 企画の提案をする
+- システム(Hiki)の不具合を直す
+- 編集者コミュニティへ参加する
+
+などなどいろいろな貢献方法があるそうです。
+
+### 「1 個の Pull Request の Diff を 200 行以下にしたら捗った話」@kbaba1001
+* 発表者
+    * [@kbaba1001](https://twitter.com/kbaba1001)
+* 資料
+    * [Pull RequestのDiffを200行以下にしたら捗った話 // Speaker Deck](https://speakerdeck.com/kbaba1001/pull-requestfalsediffwo200xing-yi-xia-nisitarabu-tutahua)
+
+![1 個の Pull Request の Diff を 200 行以下にしたら捗った話、講演者の画像](okinawarubykaigi01/kbaba1001.jpg)
+
+[@kbaba1001](https://twitter.com/kbaba1001)さんの小さいPR最高!!話でした。
+小さいPull Requestだと、毎日PRが出せて楽しい、レビューの質があがる、マージ速い!と楽しそうに語っていました。
+部分的にPullRequestを出すコツを具体的に挙げられていたので、すごく参考になりました。
+
+### 「カスタムマッチャーを流行らせたい」@moro
+* 発表者
+    * [@moro](https://twitter.com/moro)
+* 資料
+    * [Suggestion-for-RSpec-Custom-matcher // Speaker Deck](https://speakerdeck.com/moro/suggestion-for-rspec-custom-matcher)
+
+![カスタムマッチャーを流行らせたい、講演者の画像](okinawarubykaigi01/moro.jpg)
+
+RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる! 楽しくなる!という話でした。
+
+真偽値を返す`match`を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
+
+``` ruby
+RSpec::Matchers.define(:matchers_name) do |expected|
+  match do |actual|
+    actual == expected
+  end
+end
+```
+
+### 「1,000,000yen Salesforce1 Platform Mobile Hack Challenge」@ayumin
+* 発表者
+    * [@ayumin](https://twitter.com/ayumin)
+* 資料
+    * なし
+
+![1,000,000yen Salesforce1 Platform Mobile Hack Challenge、講演者の画像](okinawarubykaigi01/ayumin.jpg)
+
+るびまに掲載される頃には応募が終了しているかもしれませんが、[
+Salesforce1 Platform モバイル開発チャレンジ](http://events.developerforce.com/ja/contests/challengejapan2014)の開催告知でした。
