@@ -336,3 +336,21 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 [@kbaba1001](https://twitter.com/kbaba1001)さんの小さいPR最高!!話でした。
 小さいPull Requestだと、毎日PRが出せて楽しい、レビューの質があがる、マージ速い!と楽しそうに語っていました。
 部分的にPullRequestを出すコツを具体的に挙げられていたので、すごく参考になりました。
+
+### 「カスタムマッチャーを流行らせたい」@moro
+* 発表者
+    * [@moro](https://twitter.com/moro)
+* 資料
+    * [Suggestion-for-RSpec-Custom-matcher // Speaker Deck](https://speakerdeck.com/moro/suggestion-for-rspec-custom-matcher)
+
+RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる! 楽しくなる!という話でした。
+
+真偽値を返す`match`を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
+
+``` ruby
+RSpec::Matchers.define(:matchers_name) do |expected|
+  match do |actual|
+    actual == expected
+  end
+end
+```
