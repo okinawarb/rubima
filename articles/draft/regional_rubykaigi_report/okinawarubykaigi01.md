@@ -92,6 +92,8 @@ comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行
 ### Ryukyu Rubyist Rookies
 [@repserc](https://twitter.com/repserc)さんによる[Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)の紹介でした。(発表資料: [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies))
 
+![Ryukyu Rubyist Rookiesのrepsercさん](okinawarubykaigi01/repserc.jpg)
+
 「最終的な目標として"Good bye blue monday"、月曜日をRubyで楽しく過ごして行きましょう!」とおっしゃっていたのが印象的でした。
 Rubyの初心者、プログラミング初心者が多いのが特徴で、「ベーマガ/Cマガみたいなお題をつくっていきたい」「初心者から中級者へ」と互いに教えあっている様子を紹介してくださいました。
 
