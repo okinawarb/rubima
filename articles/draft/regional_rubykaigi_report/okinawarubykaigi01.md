@@ -326,3 +326,13 @@ mrubyのコードはRIteBinaryと呼ばれるバイトコードに変換され�
 - 編集者コミュニティへ参加する
 
 などなどいろいろな貢献方法があるそうです。
+
+### 「1 個の Pull Request の Diff を 200 行以下にしたら捗った話」@kbaba1001
+* 発表者
+    * [@kbaba1001](https://twitter.com/kbaba1001)
+* 資料
+    * [Pull RequestのDiffを200行以下にしたら捗った話 // Speaker Deck](https://speakerdeck.com/kbaba1001/pull-requestfalsediffwo200xing-yi-xia-nisitarabu-tutahua)
+
+[@kbaba1001](https://twitter.com/kbaba1001)さんの小さいPR最高!!話でした。
+小さいPull Requestだと、毎日PRが出せて楽しい、レビューの質があがる、マージ速い!と楽しそうに語っていました。
+部分的にPullRequestを出すコツを具体的に挙げられていたので、すごく参考になりました。
