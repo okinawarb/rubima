@@ -47,7 +47,7 @@
 
 ## Lightning Talks 1 + Sponsored Session
 
-### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C
+### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C7
 
 * 発表者
     * [@bash0C7](https://twitter.com/bash0C7)
