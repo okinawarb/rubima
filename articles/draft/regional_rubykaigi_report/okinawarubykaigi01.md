@@ -76,10 +76,9 @@ Ustreamは、途中までしか録画されていません。
 ### 「Rubyを使って3人/日でアプリをリリースしよう」
 
 * 発表者
-
   * [@masuidrive](https://twitter.com/masudrive)
-* 資料
 
+* 資料
   * なし
 
 ![masuidrive](okinawarubykaigi01/masuidrive.jpg)
@@ -197,7 +196,7 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 * 動画
   * [Lightning Talks 2 (各10分)](http://www.ustream.tv/recorded/44350011)
 
-### 「rcairoでものづくり」@mgwsuzuki
+### 「rcairoでものづくり」
 
 * 発表者
     * [@mgwsuzuki](https://twitter.com/mgwsuzuki)
@@ -210,7 +209,7 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいということをおっしゃっていました。
 
 
-### 「Rubyに何かをしゃべらせる」Yoichi Kobayashi
+### 「Rubyに何かをしゃべらせる」
 
 * 発表者
     * [Yoichi Kobayashi](http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461)
@@ -223,7 +222,7 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 [Twilio](http://www.twilio.com/)とRubyを使って、ただひたすらオヤジギャクを喋らせる番号を取得したが、喋るオヤジギャクが本当に面白いものなのかというのをどう判定するかのアルゴリズムをRubyで考えたいというようなお話でした。オヤジギャクを扱いながらも、何をもって面白いのかを真面目に考察する発表に会場からは笑いが起こっていました。
 
 
-### 「組み込みにもiOSにもrubyで幸せ（仮）」@shumach217
+### 「組み込みにもiOSにもrubyで幸せ（仮）」
 
 * 発表者
     * [@shumach217](https://twitter.com/shumach217)
@@ -272,6 +271,8 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 ## Lightning Talks 学生枠
 
+学生を募集対象としたLT枠も設け、計6名学生が登壇しました。
+
 * 動画
   * [Lightning Talks 学生枠 (各5分)](http://www.ustream.tv/recorded/44351656)
 
@@ -291,6 +292,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 * 発表者
     * [@_simanman](https://twitter.com/_simanman)
+
 * 資料
     * [琉大図書館にRuby本を！](http://www.slideshare.net/_siman/ruby-31905851?qid=8ca58c70-4301-47df-b498-d2daa3e917c4&v=qf1&b=&from_search=1)
 
@@ -302,6 +304,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 * 発表者
     * [@enkw_](https://twitter.com/enkw_)
+
 * 資料
     * [#MacFriends: Macの背面にステッカーを貼るヤツちょっとこい](https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi)
 
@@ -310,7 +313,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
 [enkw_](https://twitter.com/enkw_)さんはMac Bookの背面をシェアするユニークなサービス[Mac Frends](http://macfriends.net)を紹介しました。
 [RubyFriends](http://rubyfriends.com)から着想を得て作成したらしいです。会場ではさっそく利用している方の姿もありました。
 
-### 「Square your Instagram」@nanophate
+### 「Square your Instagram」
 
 * 発表者
     * [@nanophate](https://twitter.com/nanophate)
@@ -370,6 +373,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 
 ### 「るびまの話」@gunjisatoshi
+
 * 発表者
     * [@gunjisatoshi](https://twitter.com/gunjisatoshi)
 
