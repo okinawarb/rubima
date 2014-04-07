@@ -85,6 +85,9 @@ Ustreamは、途中までしか録画されていません。
     * [@bash0C7](https://twitter.com/bash0C7)
 * 資料
     * [Rubyによるバッチ業務のストリーム処理化の設計と実装](https://speakerdeck.com/bash0c7/design-and-implement-batch-stream-processing-application-for-ruby)
+    * [沖縄Ruby会議01 #okrk01 に参加した - その1. アドバイザーとは - @bash0C7. hatenablog.entries.reverse_each](http://bash0c7.hatenablog.com/entry/2014/03/03/005628)
+    * [沖縄Ruby会議01 #okrk01 に参加した - その2. 発表してきた - @bash0C7. hatenablog.entries.reverse_each](http://bash0c7.hatenablog.com/entry/2014/03/21/003206)
+    * [沖縄Ruby会議01に行ってきました。発表してきました。 #okrk01 - pixiv engineering blog](http://inside.pixiv.net/entry/2014/03/20/154535)
 
 ![bash0C7](okinawarubykaigi01/bash07.jpg)
 
