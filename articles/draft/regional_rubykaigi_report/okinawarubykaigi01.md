@@ -38,7 +38,7 @@
 * 資料
    * なし
 
-![masuidrive](okinawarubykaigi01/matz.jpg)
+![matz](okinawarubykaigi01/matz.jpg)
 
 初沖縄のまつもとさん、首里城観光で買った赤色のシャツを着ていて、発表前にはルートビアの話題がでたりして、沖縄を満喫されたようです。
 会場は満員で立ち見が出るほどでした。
