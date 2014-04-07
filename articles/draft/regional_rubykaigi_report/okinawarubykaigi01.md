@@ -37,6 +37,8 @@ Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄�
 * 動画
   * [ゲスト講演 「Change your world」](http://www.ustream.tv/recorded/44345761)
 
+  ※12:33ぐらいから始まります。
+
 ### Change Your World
 
 * 発表者
