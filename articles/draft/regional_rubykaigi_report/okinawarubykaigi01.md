@@ -76,7 +76,7 @@ Ustreamは、途中までしか録画されていません。
 
 風呂グラマーとして有名な@masuidriveさん。[wri.pe](https://wri.pe/)を作る過程、ローンチ後の運用部分などのお話を伺いました。「自分が普段使うものを作ろう」と、メモアプリであるwri.peの基本機能を3日で実装したそうです。プレスを打つ、運用、顧客対応などの広い範囲を経験できたことから、何か小さなものでもいいからプロダクトを作ってみることを薦めていました。
 
-※執筆時にwri.peのソースコードが公開されることになったようです。[wri.peのソースコードを公開しました。 | @masuidrive blog](http://blog.masuidrive.jp/2014/03/31/open-wri-pe/)
+※沖縄Ruby会議実施後にwri.peのソースコードが公開されたようです。[wri.peのソースコードを公開しました。 | @masuidrive blog](http://blog.masuidrive.jp/2014/03/31/open-wri-pe/)
 
 
 ## Lightning Talks 1 + Sponsored Session
