@@ -34,7 +34,7 @@
 ### Change Your World
 
 * 発表者
-    * [@yukihiro_matz](https://twitter.com/)
+    * [@yukihiro_matz](https://twitter.com/yukihiro_matz)
 * 資料
    * なし
 
