@@ -100,12 +100,15 @@ Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄�
 
 * 資料
   * [Rubyによるバッチ業務のストリーム処理化の設計と実装](https://speakerdeck.com/bash0c7/design-and-implement-batch-stream-processing-application-for-ruby)
+  * [沖縄Ruby会議01 #okrk01 に参加した - その1. アドバイザーとは - @bash0C7. hatenablog.entries.reverse_each](http://bash0c7.hatenablog.com/entry/2014/03/03/005628)
+  * [沖縄Ruby会議01 #okrk01 に参加した - その2. 発表してきた - @bash0C7. hatenablog.entries.reverse_each](http://bash0c7.hatenablog.com/entry/2014/03/21/003206)
+  * [沖縄Ruby会議01に行ってきました。発表してきました。 #okrk01 - pixiv engineering blog](http://inside.pixiv.net/entry/2014/03/20/154535)
 
 ![bash0C7](okinawarubykaigi01/bash07.jpg)
 
-ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使いストリームにバッチ業務を処理する手法を紹介して頂きました。
+ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使い、バッチ業務をストリーム処理化する手法を紹介して頂きました。
 通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
-プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加する出来るということをおっしゃっていました。
+プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加出来るということをおっしゃっていました。
 
 ### 「Emacsの普通の使い方」
 
@@ -117,21 +120,22 @@ Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄�
 
 ![libkinjo](okinawarubykaigi01/libkinjo.jpg)
 
-Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、libkinjoさんはEmacsのscratchバッファでeLispと対話するようにRubyとも対話したいと考えました。
-comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行し結果を受け取るデモを実際に動かして頂きました。
-また「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
+Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、@libkinjoさんはEmacsのscratchバッファでelispと対話するようにRubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行し、結果を受け取るデモを実際に動かして頂きました。
+
+「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
 
 ###「RyukyuFrogsとLexues Academyの話」
 
 * 発表者
-    * 山崎さん[株式会社レキサス](http://lexues.co.jp)
+    * 山崎さん([株式会社レキサス](http://lexues.co.jp))
 
 * 資料
     * なし
 
 ![yamazaki](okinawarubykaigi01/yamazaki.jpg)
 
-沖縄県内の学生を育成するプロジェクト[RyukyuFrogs](http://www.ryukyu-frogs.com)と[Lexues Academy](http://academy.lexues.co.jp)の紹介でした。
+沖縄Ruby会議のスポンサーをしていただいた[株式会社レキサス](http://www.lexues.co.jp/)の山崎さんから、沖縄県内の学生を育成するプロジェクト[RyukyuFrogs](http://www.ryukyu-frogs.com)と[Lexues Academy](http://academy.lexues.co.jp)をご紹介していただきました。後述する学生LT枠では2つの育成プロジェクトに参加した学生たちも登壇していました。
 
 ## 沖縄県内のコミュニティ活動の紹介
 
