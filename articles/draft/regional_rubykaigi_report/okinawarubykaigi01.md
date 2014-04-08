@@ -143,58 +143,62 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
 ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました。
+ここでは各コミュニティのリンク、当日の発表資料、発表者を紹介します。
 
-### Ryukyu Rubyist Rookies
+### [Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)
 
-[@repserc](https://twitter.com/repserc)さんによる[Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)の紹介でした。(発表資料: [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies))
+* 発表者
+  * [@repserc](https://twitter.com/repserc)
+
+* 資料
+  * [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies)
+
+  * [沖縄Ruby会議で発表できなかったこと](http://repserc.hatenablog.com/entry/2014/03/04/164535)
 
 ![Ryukyu Rubyist Rookiesのrepsercさん](okinawarubykaigi01/repserc.jpg)
 
-「最終的な目標として"Good bye blue monday"、月曜日をRubyで楽しく過ごして行きましょう!」とおっしゃっていたのが印象的でした。
-Rubyの初心者、プログラミング初心者が多いのが特徴で、「ベーマガ/Cマガみたいなお題をつくっていきたい」「初心者から中級者へ」と互いに教えあっている様子を紹介してくださいました。
 
-後日、[沖縄Ruby会議で発表できなかったこと](http://repserc.hatenablog.com/entry/2014/03/04/164535)を教えていただきました。
+### [Ryudai.rb](http://lingr.com/room/ryudairb)
 
-### Ryudai.rb
-
-[@_simanman](https://twitter.com/_simanman)さんによる[ryudai.rb](http://lingr.com/room/ryudairb)の紹介でした。
+* 発表者
+  * [@_simanman](https://twitter.com/_simanman)
 
 ![_simanman](okinawarubykaigi01/_simanman.jpg)
 
-沖縄Ruby会議01の日がちょうど設立1周年。コミュニティの維持についての悩みを話していました。
+### [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)
 
-### Okinawa.rb
-
-[@yasulab](https://twitter.com/yasulab)さんによる[Okinawa.rb](https://www.facebook.com/groups/okinawarb/)の紹介でした。
+* 発表者
+  * [@yasulab](https://twitter.com/yasulab)
 
 ![yasulab](okinawarubykaigi01/yasulab.jpg)
 
-毎週水曜日の夜、ギークハウス沖縄で行われているWeekly Meetupの様子と、ハッカソン、台風そん(台風の暴風域に入ってから抜けるまでの間行われているハッカソン、基本的に家で一人で行うのでエクストリーム・ボッチソンともいう)の様子を紹介していただきました。
 
-Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄へお越しの際はぜひご参加ください :) (参考: [那覇空港からギークハウス沖縄までの行き方](https://speakerdeck.com/yasulab/na-ba-kong-gang-karagikuhausuchong-nawa-madefalsexing-kifang))
+### [ハッカーズチャンプルー](http://hackers-champloo.org/)
 
-### ハッカーズチャンプルー
+* 発表者
+  * [@k_nishijima](https://twitter.com/k_nishijima)
+
+* 資料
+  * [20140301ハッカーズチャンプルー告知lt](http://www.slideshare.net/KoichiroNishijima/20140301lt)
+  * [K Nishijimaのぶろぐ: 沖縄Ruby会議とMusic Atlas 2014に行ってきました](http://k-nishijima.blogspot.jp/2014/03/rubymusic-atlas-2014.html)
 
 ![k_nishijima](okinawarubykaigi01/k_nishijima.jpg)
 
-沖縄県内IT系コミュニティの夏祭り、[ハッカーズチャンプルー](http://hackers-champloo.org/)について、[@k_nishijima](https://twitter.com/k_nishijima)さんに発表&告知して頂きました。(発表資料: [20140301ハッカーズチャンプルー告知lt](http://www.slideshare.net/KoichiroNishijima/20140301lt)、ブログ: [K Nishijimaのぶろぐ: 沖縄Ruby会議とMusic Atlas 2014に行ってきました](http://k-nishijima.blogspot.jp/2014/03/rubymusic-atlas-2014.html))
 
-その場でMatzさん、増井さんに「また沖縄きたいですか?どうですか!?」と呼びかけ、OK(仮)をもらって盛り上がっていました。
-ハッカーズチャンプルーは今年(2014年)7/18〜7/19に開催されるようです。
+### [ギークハウス沖縄](http://text.geeoki.com)
 
-### ギークハウス沖縄
+* 発表者
+  * [@kimihito_](http://twitter.com/kimihito_)
 
 ![kimihito_](okinawarubykaigi01/kimihito_.jpg)
 
-[@kimihito_](https://twitter.com/kimihito_)さんによるギークハウス沖縄の紹介では、全国におよそ17ヶ所ある[ギークハウス](http://geekhouse.tumblr.com/)の説明と、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
 
 ### gFab
 
-![nanophate](okinawarubykaigi01/nanophate-gfab.jpg)
+* 発表者
+  * 又吉さん
 
-又吉さんから、ものづくりコミュニティgFabの紹介でした。
-楽しく作るデジタルファブリケーションの場、ということで、台風で吹き飛ばされてしまった看板を作りなおしたご自身の体験などを紹介していました。
-「メーカーブームに乗ってレーザーカッターや、3Dプリンター買っちゃった、どうしよう」と困っているかたは、gFabのようなコミュニティをはじめてみると面白くなるかもしれませんね!
+![nanophate](okinawarubykaigi01/nanophate-gfab.jpg)
 
 
 ## Lightning Talks 2
