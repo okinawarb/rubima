@@ -76,7 +76,7 @@ Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄�
 ### 「Rubyを使って3人/日でアプリをリリースしよう」
 
 * 発表者
-  * [@masuidrive](https://twitter.com/masudrive)
+  * [@masuidrive](https://twitter.com/masuidrive)
 
 * 資料
   * なし
