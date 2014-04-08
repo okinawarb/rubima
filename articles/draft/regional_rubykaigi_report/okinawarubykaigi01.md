@@ -108,7 +108,7 @@ Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄�
 
 ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使い、バッチ業務をストリーム処理化する手法を紹介して頂きました。
 通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
-プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加出来るということをおっしゃっていました。
+プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加出来るとおっしゃっていました。
 
 ### 「Emacsの普通の使い方」
 
@@ -216,7 +216,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![rcairo](okinawarubykaigi01/rcairo.jpg)
 
-2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいということをおっしゃっていました。
+2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいとおっしゃっていました。
 
 
 ### 「Rubyに何かをしゃべらせる」
