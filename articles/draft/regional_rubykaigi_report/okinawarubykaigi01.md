@@ -351,6 +351,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
   * [Lightning Talks 3 (各5分)](http://www.ustream.tv/recorded/44352072)
 
 ### 「RubyKaigiの話」@kakutani
+
 * 発表者
     * [@kakutani](https://twitter.com/kakutani)
 
@@ -359,28 +360,11 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 ![RubyKaigiの話、講演者の画像](okinawarubykaigi01/kakutani.jpg)
 
-[日本Rubyの会](http://ruby-no-kai.org/)から来た[@kakutani](https://twitter.com/kakutani)さん。
-まずはじめに、一番大事なこととして、今年の9/18〜9/20に行われる[RubyKaigi 2014](http://rubykaigi.org/2014)と、
-間を開けず来年4/9〜4/11日に行われる[RubyKaigi 2015](http://rubykaigi.org/2015)の告知をしてくださいました。
+[日本Rubyの会](http://ruby-no-kai.org/)からお越しの[@kakutani](https://twitter.com/kakutani)さん。2014年9/18から9/20に行われる[RubyKaigi 2014](http://rubykaigi.org/2014)と、2015年4/9から4/11に行われる[RubyKaigi 2015](http://rubykaigi.org/2015)の告知をしてくださいました。
 
-日本Rubyの会ではRubyistの活動を支援しており、[るびま](http://magazine.rubyist.net/)や[るりま](http://docs.ruby-lang.org/ja/)、[Regional RubyKaigi](http://regional.rubykaigi.org/)、[Rails Girls](http://railsgirls.jp/)などの開催の支援しているそうです。
+日本Rubyの会ではRubyistの活動を支援しており、[るびま](http://magazine.rubyist.net/)、[るりま](http://docs.ruby-lang.org/ja/)、[Regional RubyKaigi](http://regional.rubykaigi.org/)や[Rails Girls](http://railsgirls.jp/)などの開催の支援しているそうです。
 
-最後に、大事なのは活動、みなさんがコミュニティだ、ということで、沖縄で続けていってほしいとおっしゃっていました。
-
-沖縄には
-
-- [Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)
-- [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)
-- [ryudai.rb](http://lingr.com/room/ryudairb)
-- [Hackers Champloo](http://hackers-champloo.org/)
-- gFab
-- [ギークハウス沖縄](http://text.geeoki.com/)
-
-の他にもたくさんコミュニティがあります。
-
-[沖縄IT勉強会カレンダー](https://sites.google.com/site/nmtysh/okinawa-it-seminar-calendar)に直近の勉強会やコミュニティの情報がたくさん載っているので、みなさん、沖縄で会いましょう
-!
-
+最後に「大事なのは活動、みなさんがコミュニティだ」ということで、今後も沖縄でのRubyistたちによる活動を続けていってほしいとのことでした。
 
 ### 「るびまの話」@gunjisatoshi
 
