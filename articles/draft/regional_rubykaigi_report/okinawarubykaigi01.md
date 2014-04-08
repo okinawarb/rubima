@@ -282,11 +282,13 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 ## Lightning Talks 学生枠
 
 学生を募集対象としたLT枠も設け、計6名学生が登壇しました。
+ほとんどが作成したWebサービスの紹介であるため、サービス・発表資料のリンクと発表者の紹介のみを掲載します。
 
 * 動画
   * [Lightning Talks 学生枠 (各5分)](http://www.ustream.tv/recorded/44351656)
 
-### 「This is a SharePla」
+
+### [SharePla](http://sharepla.herokuapp.com)
 
 * 発表者
     * [@kanpe777](https://twitter.com/kanpe777) [@salvare234](https://twitter.com/salvare234)
@@ -294,56 +296,41 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![kanpe777_salvare234](okinawarubykaigi01/kanpe777_salvare234.jpg)
 
-旅のプランをネット上で共有出来るWebアプリケーション[SharePla](http://sharepla.herokuapp.com)を紹介しました。
-人材育成イベントの一環でアジャイル開発のスクラムを実践したらしく、実際にどのようにWebアプリケーションを開発していったかを話していました。
-Web上にも公開していて実用したユーザのフィードバックを受けて開発を続けていきたいと話していました。
 
-### 「琉大図書館にRuby本を！」
+### 「琉大図書館にRuby本を！」([発表資料](http://www.slideshare.net/_siman/ruby-31905851?qid=8ca58c70-4301-47df-b498-d2daa3e917c4&v=qf1&b=&from_search=1))
 
 * 発表者
     * [@_simanman](https://twitter.com/_simanman)
 
-* 資料
-    * [琉大図書館にRuby本を！](http://www.slideshare.net/_siman/ruby-31905851?qid=8ca58c70-4301-47df-b498-d2daa3e917c4&v=qf1&b=&from_search=1)
 
 ![simanman](okinawarubykaigi01/simanman.jpg)
 
-琉球大学図書館の選書システムを自動で入力する自作スクリプトについて紹介しました。プレゼンが可愛い棒人間で書かれていて目で見て面白いLTでした。
 
-### 「#MacFriends: Macの背面にステッカーを貼るヤツちょっとこい」
+### [Mac Frends](http://macfriends.net) ([発表資料](https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi))
 
 * 発表者
     * [@enkw_](https://twitter.com/enkw_)
 
-* 資料
-    * [#MacFriends: Macの背面にステッカーを貼るヤツちょっとこい](https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi)
 
 ![enkw](okinawarubykaigi01/enkw.jpg)
 
-[enkw_](https://twitter.com/enkw_)さんはMac Bookの背面をシェアするユニークなサービス[Mac Frends](http://macfriends.net)を紹介しました。
-[RubyFriends](http://rubyfriends.com)から着想を得て作成したらしいです。会場ではさっそく利用している方の姿もありました。
 
-### 「Square your Instagram」
+### [instag](http://instag.herokuapp.com)
 
 * 発表者
     * [@nanophate](https://twitter.com/nanophate)
 
 ![nanophate](okinawarubykaigi01/nanophate.jpg)
 
-[instag](http://instag.herokuapp.com)は美術館のように洗練されたデザインで写真を閲覧することのできるサービスです。
-開発をおこなった[nanophate](https://twitter.com/nanophate)さんは従来の写真公開サービスを見て「いいね」や「スター」などに邪魔されず、もっとユーザーが写真に没頭できるようなデザインのがほしいと思ったそうです。
-画像は[instagram](http://instagram.com)の[API](http://instagram.com/developer/)を使って取得していてサービス名もそこから来ているらしいです。
 
-### 「Rubyがモデリングをする時代」
+### [Once-Tech](http://once-tech.net)
 
 * 発表者
     * [@motikan2010](https://twitter.com/motikan2010)
 
+
 ![motikan2010](okinawarubykaigi01/motikan2010.jpg)
 
-手軽に世界に一つだけのものを作れるサービス[Once-Tech](http://once-tech.net)について[motikan2010](https://twitter.com/motikan2010)さんが紹介しました。
-既存の3Dモデルとユーザーがアップロードした画像を組み合わせることで自分だけの3Dモデルが作れるそうです。
-発表で実際にサービスを利用してオリジナルの3Dモデルを作成するデモを行っていましたが数十秒ほどで3Dモデルが完成し、本当に手軽に利用することが可能でした。
 
 ## Lightning Talks 3
 
