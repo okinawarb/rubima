@@ -1,6 +1,8 @@
 ##はじめに
 
-沖縄で毎週開催されている Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄初の「沖縄Ruby会議01」が開催されました。
+Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄初の「沖縄Ruby会議01」が開催されました。
+
+![okrk01](okinawarubykaigi01/okrk-all.jpg)
 
 ## 開催日
 
@@ -31,6 +33,12 @@
 * [沖縄Ruby会議のtweetまとめ](http://togetter.com/li/636273)
 
 ## ゲスト講演1
+
+* 動画
+  * [ゲスト講演 「Change your world」](http://www.ustream.tv/recorded/44345761)
+
+  ※12:33ぐらいから始まります。
+
 ### Change Your World
 
 * 発表者
@@ -40,23 +48,19 @@
 
 ![matz](okinawarubykaigi01/matz.jpg)
 
-初沖縄のまつもとさん、首里城観光で買った赤色のシャツを着ていて、発表前にはルートビアの話題がでたりして、沖縄を満喫されたようです。
-会場は満員で立ち見が出るほどでした。
+初沖縄のまつもとさん、首里城がプリントされたTシャツを着て登壇されました。発表前には沖縄にある炭酸飲料、ルートビアの話をなさったりと、沖縄を満喫されたようでした。会場は満員で立ち見が出るほどでした。
 
-前夜祭のときから、すごくエモい話しをしようと思っているとおっしゃっていましたが本当に大変エモい話でした。
+前夜祭のときから、「すごくエモい話をしようと思っている」とおっしゃっていましたが、本当に大変エモい話でした。
 
 まず「世界はソフトウェアで動いている」と、まつもとさんから見た世界の話をされていました。
 
-そこから、ガリレオ温度計のように、みんな固有の魂の浮力をもっている、
-魂の浮力がちょうどいいところにいるときに幸せになれる。
-といった話にはじまり、
-スーツの会社にジーンズで出社したら誰も何もいわなかったこと。
-自らがロシア語の関数名やコメントで困った経験から、日本語のドキュメントを英語でも書いたことなど、
-まつもとさんが自ら自分の世界を変えてきた話をされていました。
+そこから「ガリレオ温度計のように、みんな固有の魂の浮力をもっている」、「魂の浮力がちょうどいいところにいるときに幸せになれる」といった話にはじまり、
+スーツで出社する会社にジーンズで出社したら誰も何も言わなかったこと、自らがロシア語の関数名やコメントで困った経験から、日本語のドキュメントを英語でも書いたことなど、まつもとさんが自ら自分の世界を変えてきた話をされていました。
 
-最後には「あなたはあなたの世界をかえることができる」「勝手にルールを変えることで幸せになる」とおっしゃり、僕たちが変えられないと思っている世界は意外と変えられるよ、というメッセージが伝わってきました。
+最後には「あなたはあなたの世界を変えることができる」、「勝手にルールを変えることで幸せになる」とおっしゃり、僕たちが変えられないと思っている世界は意外と変えられるよ、というメッセージが伝わってきました。
 
-Ustreamは、途中までしか録画されていません。
+上記の動画のリンクは、途中までしか録画されていません。
+
 当日話を聞けなかった方は、来場者のブログからまつもとさんの話のエモさが伝わってくるかもしれませんね。
 
 - [沖縄Ruby会議01に参加しました| Little Braver](http://little-braver.com/366/)
@@ -65,12 +69,17 @@ Ustreamは、途中までしか録画されていません。
 
 ## ゲスト講演2
 
+* 動画
+  * [ゲスト講演「Rubyを使って3人/日でアプリをリリースしよう」part1](http://www.ustream.tv/recorded/44347244)
+  * [ゲスト講演「Rubyを使って3人/日でアプリをリリースしよう」part2](http://www.ustream.tv/recorded/44347759)
+
 ### 「Rubyを使って3人/日でアプリをリリースしよう」
 
 * 発表者
-    * [@masuidrive](https://twitter.com/masudrive)
+  * [@masuidrive](https://twitter.com/masudrive)
+
 * 資料
-    * なし
+  * なし
 
 ![masuidrive](okinawarubykaigi01/masuidrive.jpg)
 
@@ -79,36 +88,44 @@ Ustreamは、途中までしか録画されていません。
 
 ## Lightning Talks 1 + Sponsored Session
 
-### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」@bash0C7
+* 動画
+  * [Lightning Talks 1 + Sponsored Session (各10分)](http://www.ustream.tv/recorded/44348324)
+
+### 「Rubyによるバッチ業務のストリーム処理化の設計と実装」
 
 * 発表者
-    * [@bash0C7](https://twitter.com/bash0C7)
+  * [@bash0C7](https://twitter.com/bash0C7)
+
 * 資料
-    * [Rubyによるバッチ業務のストリーム処理化の設計と実装](https://speakerdeck.com/bash0c7/design-and-implement-batch-stream-processing-application-for-ruby)
+  * [Rubyによるバッチ業務のストリーム処理化の設計と実装](https://speakerdeck.com/bash0c7/design-and-implement-batch-stream-processing-application-for-ruby)
 
 ![bash0C7](okinawarubykaigi01/bash07.jpg)
 
 ログ収集ツールとして注目される[fluentd](http://fluentd.org)を使いストリームにバッチ業務を処理する手法を紹介して頂きました。
 通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
-プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加する出来るということをおっしゃていました。  
+プラグインは[RubyGem](https://www.ruby-lang.org/ja/libraries/)の形式で導入することが出来るため、手軽に機能を追加する出来るということをおっしゃっていました。
 
-### 「Emacsの普通の使い方」@libkinjo
+### 「Emacsの普通の使い方」
 
 * 発表者
-    * [@libkinjo](https://twitter.com/libkinjo)
+  * [@libkinjo](https://twitter.com/libkinjo)
+
 * 資料
-    * [Emacsの普通の使い方](http://kinjo.github.io/okrk01/#/title)
+  * [Emacsの普通の使い方](http://kinjo.github.io/okrk01/#/title)
 
 ![libkinjo](okinawarubykaigi01/libkinjo.jpg)
 
 Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、libkinjoさんはEmacsのscratchバッファでeLispと対話するようにRubyとも対話したいと考えました。
 comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行し結果を受け取るデモを実際に動かして頂きました。
-また「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。  
+また「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
 
-###「RyukyuFrogsとLexues Academyの話」株式会社レキサス
+###「RyukyuFrogsとLexues Academyの話」
 
 * 発表者
     * 山崎さん[株式会社レキサス](http://lexues.co.jp)
+
+* 資料
+    * なし
 
 ![yamazaki](okinawarubykaigi01/yamazaki.jpg)
 
@@ -122,6 +139,7 @@ comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行
 ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました。
 
 ### Ryukyu Rubyist Rookies
+
 [@repserc](https://twitter.com/repserc)さんによる[Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)の紹介でした。(発表資料: [Ryukyu Rubyist Rookies 紹介 @ 沖縄Ruby会議01](http://www.slideshare.net/repserc/ryukyu-rubyist-rookies))
 
 ![Ryukyu Rubyist Rookiesのrepsercさん](okinawarubykaigi01/repserc.jpg)
@@ -132,6 +150,7 @@ Rubyの初心者、プログラミング初心者が多いのが特徴で、「�
 後日、[沖縄Ruby会議で発表できなかったこと](http://repserc.hatenablog.com/entry/2014/03/04/164535)を教えていただきました。
 
 ### Ryudai.rb
+
 [@_simanman](https://twitter.com/_simanman)さんによる[ryudai.rb](http://lingr.com/room/ryudairb)の紹介でした。
 
 ![_simanman](okinawarubykaigi01/_simanman.jpg)
@@ -139,6 +158,7 @@ Rubyの初心者、プログラミング初心者が多いのが特徴で、「�
 沖縄Ruby会議01の日がちょうど設立1周年。コミュニティの維持についての悩みを話していました。
 
 ### Okinawa.rb
+
 [@yasulab](https://twitter.com/yasulab)さんによる[Okinawa.rb](https://www.facebook.com/groups/okinawarb/)の紹介でした。
 
 ![yasulab](okinawarubykaigi01/yasulab.jpg)
@@ -148,6 +168,7 @@ Rubyの初心者、プログラミング初心者が多いのが特徴で、「�
 Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄へお越しの際はぜひご参加ください :) (参考: [那覇空港からギークハウス沖縄までの行き方](https://speakerdeck.com/yasulab/na-ba-kong-gang-karagikuhausuchong-nawa-madefalsexing-kifang))
 
 ### ハッカーズチャンプルー
+
 ![k_nishijima](okinawarubykaigi01/k_nishijima.jpg)
 
 沖縄県内IT系コミュニティの夏祭り、[ハッカーズチャンプルー](http://hackers-champloo.org/)について、[@k_nishijima](https://twitter.com/k_nishijima)さんに発表&告知して頂きました。(発表資料: [20140301ハッカーズチャンプルー告知lt](http://www.slideshare.net/KoichiroNishijima/20140301lt)、ブログ: [K Nishijimaのぶろぐ: 沖縄Ruby会議とMusic Atlas 2014に行ってきました](http://k-nishijima.blogspot.jp/2014/03/rubymusic-atlas-2014.html))
@@ -155,12 +176,14 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 その場でMatzさん、増井さんに「また沖縄きたいですか?どうですか!?」と呼びかけ、OK(仮)をもらって盛り上がっていました。
 ハッカーズチャンプルーは今年(2014年)7/18〜7/19に開催されるようです。
 
-### ギークハウス沖縄 @kimihito_
+### ギークハウス沖縄
+
 ![kimihito_](okinawarubykaigi01/kimihito_.jpg)
 
 [@kimihito_](https://twitter.com/kimihito_)さんによるギークハウス沖縄の紹介では、全国におよそ17ヶ所ある[ギークハウス](http://geekhouse.tumblr.com/)の説明と、[ギークハウス沖縄](http://text.geeoki.com/)の活動のお話していただきました。Okinawa.rbの毎週のMeetupの会場になっていたり、Rubyでロボットの操作ができるフレームワークである[Artoo](http://artoo.io/)を使ってRubyでARDroneを飛ばしたりなど、部室のような空気が残るギークハウス沖縄の紹介でした。
 
 ### gFab
+
 ![nanophate](okinawarubykaigi01/nanophate-gfab.jpg)
 
 又吉さんから、ものづくりコミュニティgFabの紹介でした。
@@ -170,10 +193,14 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 ## Lightning Talks 2
 
-### 「rcairoでものづくり」@mgwsuzuki
+* 動画
+  * [Lightning Talks 2 (各10分)](http://www.ustream.tv/recorded/44350011)
+
+### 「rcairoでものづくり」
 
 * 発表者
     * [@mgwsuzuki](https://twitter.com/mgwsuzuki)
+
 * 資料
     * [rcairoでものづくり](http://www.slideshare.net/mgwsuzuki/ruby-kaigi-rcairo)
 
@@ -182,10 +209,11 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいということをおっしゃっていました。
 
 
-### 「Rubyに何かをしゃべらせる」Yoichi Kobayashi
+### 「Rubyに何かをしゃべらせる」
 
 * 発表者
     * [Yoichi Kobayashi](http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461)
+
 * 資料
     * なし
 
@@ -194,10 +222,11 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 [Twilio](http://www.twilio.com/)とRubyを使って、ただひたすらオヤジギャクを喋らせる番号を取得したが、喋るオヤジギャクが本当に面白いものなのかというのをどう判定するかのアルゴリズムをRubyで考えたいというようなお話でした。オヤジギャクを扱いながらも、何をもって面白いのかを真面目に考察する発表に会場からは笑いが起こっていました。
 
 
-### 「組み込みにもiOSにもrubyで幸せ（仮）」@shumach217
+### 「組み込みにもiOSにもrubyで幸せ（仮）」
 
 * 発表者
     * [@shumach217](https://twitter.com/shumach217)
+
 * 資料
     * [組み込みにもiOSにもrubyで幸せ（仮）](http://www.slideshare.net/shumach217/ruby01-31912722)
 
@@ -210,9 +239,14 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 ### 「きたのくにからこんにちぬー！」
 
 * 発表者
-    * [@PUPRL](https://twitter.com/PUPRL)
+  * [@PUPRL](https://twitter.com/PUPRL)
+
 * 資料
-    * [きたのくにからこんにちぬー](http://www.slideshare.net/AsamiImazu/okrk01-kitanokunikarakonnnichinu)
+  * [きたのくにからこんにちぬー](http://www.slideshare.net/AsamiImazu/okrk01-kitanokunikarakonnnichinu)
+
+* 動画
+  * [「きたのくにからこんにちぬー！」part1](http://www.ustream.tv/recorded/44351500)
+  * [「きたのくにからこんにちぬー！」part2](http://www.ustream.tv/recorded/44351537)
 
 ![nuruby](okinawarubykaigi01/nuruby.jpg)
 
@@ -222,9 +256,13 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 ### 「The Payment System by Ruby」ウェブペイ株式会社
 
 * 発表者
-    * [@sowawa](https://twitter.com/sowawa)
+  * [@sowawa](https://twitter.com/sowawa)
+
 * 資料
-    * なし
+  * なし
+
+* 動画
+  * [「The Payment System by Ruby」](http://www.ustream.tv/recorded/44351293)
 
 ![webpay](okinawarubykaigi01/webpay.jpg)
 
@@ -232,6 +270,11 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 
 ## Lightning Talks 学生枠
+
+学生を募集対象としたLT枠も設け、計6名学生が登壇しました。
+
+* 動画
+  * [Lightning Talks 学生枠 (各5分)](http://www.ustream.tv/recorded/44351656)
 
 ### 「This is a SharePla」
 
@@ -243,32 +286,34 @@ Okinawa.rbでは毎週水曜日Weekly Meetupを開催しているので、沖縄
 
 旅のプランをネット上で共有出来るWebアプリケーション[SharePla](http://sharepla.herokuapp.com)を紹介しました。
 人材育成イベントの一環でアジャイル開発のスクラムを実践したらしく、実際にどのようにWebアプリケーションを開発していったかを話していました。
-Web上にも公開していて実用したユーザのフィードバックを受けて開発を続けていきたいと話していました。  
+Web上にも公開していて実用したユーザのフィードバックを受けて開発を続けていきたいと話していました。
 
 ### 「琉大図書館にRuby本を！」
 
 * 発表者
     * [@_simanman](https://twitter.com/_simanman)
+
 * 資料
     * [琉大図書館にRuby本を！](http://www.slideshare.net/_siman/ruby-31905851?qid=8ca58c70-4301-47df-b498-d2daa3e917c4&v=qf1&b=&from_search=1)
 
 ![simanman](okinawarubykaigi01/simanman.jpg)
 
-琉球大学図書館の選書システムを自動で入力する自作スクリプトについて紹介しました。プレゼンが可愛い棒人間で書かれていて目で見て面白いLTでした。  
+琉球大学図書館の選書システムを自動で入力する自作スクリプトについて紹介しました。プレゼンが可愛い棒人間で書かれていて目で見て面白いLTでした。
 
 ### 「#MacFriends: Macの背面にステッカーを貼るヤツちょっとこい」
 
 * 発表者
     * [@enkw_](https://twitter.com/enkw_)
+
 * 資料
     * [#MacFriends: Macの背面にステッカーを貼るヤツちょっとこい](https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi)
 
 ![enkw](okinawarubykaigi01/enkw.jpg)
 
 [enkw_](https://twitter.com/enkw_)さんはMac Bookの背面をシェアするユニークなサービス[Mac Frends](http://macfriends.net)を紹介しました。
-[RubyFriends](http://rubyfriends.com)から着想を得て作成したらしいです。会場ではさっそく利用している方の姿もありました。  
+[RubyFriends](http://rubyfriends.com)から着想を得て作成したらしいです。会場ではさっそく利用している方の姿もありました。
 
-### 「Square your Instagram」@nanophate
+### 「Square your Instagram」
 
 * 発表者
     * [@nanophate](https://twitter.com/nanophate)
@@ -288,12 +333,17 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 手軽に世界に一つだけのものを作れるサービス[Once-Tech](http://once-tech.net)について[motikan2010](https://twitter.com/motikan2010)さんが紹介しました。
 既存の3Dモデルとユーザーがアップロードした画像を組み合わせることで自分だけの3Dモデルが作れるそうです。
-発表で実際にサービスを利用してオリジナルの3Dモデルを作成するデモを行っていましたが数十秒ほどで3Dモデルが完成し、本当に手軽に利用することが可能でした。  
+発表で実際にサービスを利用してオリジナルの3Dモデルを作成するデモを行っていましたが数十秒ほどで3Dモデルが完成し、本当に手軽に利用することが可能でした。
 
 ## Lightning Talks 3
+
+* 動画
+  * [Lightning Talks 3 (各5分)](http://www.ustream.tv/recorded/44352072)
+
 ### 「RubyKaigiの話」@kakutani
 * 発表者
     * [@kakutani](https://twitter.com/kakutani)
+
 * 資料
     * [All About Ruby-no-Kai in Okinawa RubyKaigi 01 // Speaker Deck](https://speakerdeck.com/kakutani/all-about-ruby-no-kai-in-okinawa-rubykaigi-01)
 
@@ -323,8 +373,10 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 
 ### 「るびまの話」@gunjisatoshi
+
 * 発表者
     * [@gunjisatoshi](https://twitter.com/gunjisatoshi)
+
 * 資料
     * なし
 
@@ -350,8 +402,10 @@ Web上にも公開していて実用したユーザのフィードバックを�
 などなどいろいろな貢献方法があるそうです。
 
 ### 「1 個の Pull Request の Diff を 200 行以下にしたら捗った話」@kbaba1001
+
 * 発表者
     * [@kbaba1001](https://twitter.com/kbaba1001)
+
 * 資料
     * [Pull RequestのDiffを200行以下にしたら捗った話 // Speaker Deck](https://speakerdeck.com/kbaba1001/pull-requestfalsediffwo200xing-yi-xia-nisitarabu-tutahua)
 
@@ -362,14 +416,16 @@ Web上にも公開していて実用したユーザのフィードバックを�
 部分的にPullRequestを出すコツを具体的に挙げられていたので、すごく参考になりました。
 
 ### 「カスタムマッチャーを流行らせたい」@moro
+
 * 発表者
     * [@moro](https://twitter.com/moro)
+
 * 資料
     * [Suggestion-for-RSpec-Custom-matcher // Speaker Deck](https://speakerdeck.com/moro/suggestion-for-rspec-custom-matcher)
 
 ![カスタムマッチャーを流行らせたい、講演者の画像](okinawarubykaigi01/moro.jpg)
 
-RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる! 楽しくなる!という話でした。
+RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる!楽しくなる!という話でした。
 
 真偽値を返す`match`を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
 
@@ -382,8 +438,10 @@ end
 ```
 
 ### 「1,000,000yen Salesforce1 Platform Mobile Hack Challenge」@ayumin
+
 * 発表者
     * [@ayumin](https://twitter.com/ayumin)
+
 * 資料
     * なし
 
@@ -394,6 +452,9 @@ Salesforce1 Platform モバイル開発チャレンジ](http://events.developerf
 
 ## ゲスト講演3
 
+* 動画
+  * [ゲスト講演 「mrubyを使うポイント」](http://www.ustream.tv/recorded/44352699)
+
 ### 「mrubyを使うポイント」
 
 * 発表者
@@ -402,11 +463,11 @@ Salesforce1 Platform モバイル開発チャレンジ](http://events.developerf
 ![mruby](okinawarubykaigi01/mruby.jpg)
 
 2012年4月にgithubにコードが公開されて以来オープンソースでの開発がすすむ軽量rubyこと[mruby](https://github.com/mruby/mruby)。
-そのmrubyを使うポイントについて九州工業大学で教鞭をとる田中和明准教授さんが講談しました。  
+そのmrubyを使うポイントについて九州工業大学で教鞭をとる田中和明准教授さんが講談しました。
 
 田中さんは大学卒業後、工業系の大学へ就職した田中さんはロボット制御など組み込み開発を行っていたそうです。
 組み込み開発では主にCが常用されていますが、Rubyの方がコードを書きやすいのはCでプログラムを書いたことがある方ならすぐに分かりますね。
-mrubyは当初から組み込みシステムに組み込みことを目的にスタートしたRubyです。  
+mrubyは当初から組み込みシステムに組み込みことを目的にスタートしたRubyです。
 Rubyの実行速度は遅いと言われていますが速ければいいわけではなく、一定時間内に処理が完了することを保証するリアルタイム性を満たすことができれば組み込みシステム開発で軽量化したRubyを使ってコードを書くことができます。
 Rubyの強みであるGCを使ってメモリ管理をすることが可能で、GCの処理を一定時間以内に作業を完了することを保証するインクリメンタルGCを採用することでリアルタイム性を保証しているらしいです。
 
