@@ -76,14 +76,16 @@ Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄�
 ### 「Rubyを使って3人/日でアプリをリリースしよう」
 
 * 発表者
-  * [@masuidrive](https://twitter.com/masudrive)
+  * [@masuidrive](https://twitter.com/masuidrive)
 
 * 資料
   * なし
 
 ![masuidrive](okinawarubykaigi01/masuidrive.jpg)
 
-風呂グラマーとして有名な@masuidriveさんには、[wri.pe](https://wri.pe/)を作っていくプロセス、リリースした後の運用部分などのお話を伺いました。自分が普段使えるものを作ろうと、3日では基本的なメモアプリの機能実装を行ったそうです。プレスを打つなど、運用、顧客対応、いろんなものがすごく広い範囲で見ることができ、何か小さなものでもいいからプロダクトを作ってみることを薦めていました。
+風呂グラマーとして有名な@masuidriveさん。[wri.pe](https://wri.pe/)を作る過程、ローンチ後の運用部分などのお話を伺いました。「自分が普段使うものを作ろう」と、メモアプリであるwri.peの基本機能を3日で実装したそうです。プレスを打つ、運用、顧客対応などの広い範囲を経験できたことから、何か小さなものでもいいからプロダクトを作ってみることを薦めていました。
+
+※沖縄Ruby会議実施後にwri.peのソースコードが公開されたようです。[wri.peのソースコードを公開しました。 | @masuidrive blog](http://blog.masuidrive.jp/2014/03/31/open-wri-pe/)
 
 
 ## Lightning Talks 1 + Sponsored Session
