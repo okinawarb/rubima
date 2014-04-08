@@ -260,7 +260,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![nuruby](okinawarubykaigi01/nuruby.jpg)
 
-北海道からお越しの[@PUPRL](https://twitter.com/PUPRL)さんは、「和室でぬるくRubyをもくもくする」[ぬRuby](http://nuruby.org/)という活動の紹介の地域Rubyに参加することの良さについて語ってくださいました。はじめてのLTであったにも関わらず、ぬRubyの魅力がしっかり伝わったようで、LT後にはぬRubyに参加したいとの言葉をたくさん見受けることができました。
+北海道からお越しの[@PUPRL](https://twitter.com/PUPRL)さんは、「和室でぬるくRubyをもくもくする」[ぬRuby](http://nuruby.org/)の紹介と、地域Ruby会議に参加することの良さについて語ってくださいました。ぬRubyの魅力がしっかり伝わったようで、LT後はぬRubyに参加したいとの声が上がっていました。
 
 
 ### 「The Payment System by Ruby」ウェブペイ株式会社
