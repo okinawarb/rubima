@@ -122,7 +122,7 @@ comint.elとinf-ruby.elを使いEmacsバッファ内でRubyのコードを実行
 ###「RyukyuFrogsとLexues Academyの話」
 
 * 発表者
-    * 山崎さん[株式会社レキサス](http://lexues.co.jp)
+    * 山崎さん([株式会社レキサス](http://lexues.co.jp))
 
 * 資料
     * なし
