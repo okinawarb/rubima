@@ -376,7 +376,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 ![るびまの話、講演者の画像](okinawarubykaigi01/gunjisatoshi.jpg)
 
-沖縄のRubyistもお世話になっている、[Rubyist Magazine](http://magazine.rubyist.net/)、略称「るびま」のおはなし。
+沖縄のRubyistもお世話になっている、[Rubyist Magazine](http://magazine.rubyist.net/)、略称「るびま」のお話。
 なんと今年の9月に10周年になるそうです。
 
 - Rubyist Magazineの編集プロセス
@@ -386,6 +386,8 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 進捗管理は[GitHub Issues](https://github.com/rubima/rubima/issues)をWatchすると編集部がどんなことをやっているか
 見ることが出来るらしいです。早速Watchしました!
+
+貢献方法としては、
 
 - 記事を読んでフィードバックを送る
 - 記事を投稿する
