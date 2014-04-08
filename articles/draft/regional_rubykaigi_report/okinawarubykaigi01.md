@@ -443,7 +443,7 @@ end
 
 ![1,000,000yen Salesforce1 Platform Mobile Hack Challenge、講演者の画像](okinawarubykaigi01/ayumin.jpg)
 
-るびまに掲載される頃には応募が終了しているかもしれませんが、[
+るびま掲載時には応募締め切りが終了していますが、[
 Salesforce1 Platform モバイル開発チャレンジ](http://events.developerforce.com/ja/contests/challengejapan2014)の開催告知でした。
 
 ## ゲスト講演3
