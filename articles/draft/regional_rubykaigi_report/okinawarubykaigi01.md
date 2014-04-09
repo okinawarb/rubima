@@ -306,7 +306,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 ![simanman](okinawarubykaigi01/simanman.jpg)
 
 
-### [Mac Frends](http://macfriends.net) ([発表資料](https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi))
+### [Mac Friends](http://macfriends.net) ([発表資料](https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi))
 
 * 発表者
     * [@enkw_](https://twitter.com/enkw_)
