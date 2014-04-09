@@ -276,7 +276,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![webpay](okinawarubykaigi01/webpay.jpg)
 
-開発者向けクレジット決済サービス、[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点を紹介していただきました。シンボルはGCされない問題があり、ユーザ入力をto_symすると問題が起きてしまうという例を取り上げ、シンボルの扱いに注意するようにとのことでした。5分という短いセッションながらも内容の濃いお話でした。
+開発者向けクレジット決済サービス、[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点を紹介していただきました。シンボルはGCされず、ユーザ入力をto_symすると問題が起きてしまうという例を取り上げ、シンボルの扱いに注意するようにとのことでした。5分という短いセッションながらも内容の濃いお話でした。
 
 ※ 沖縄Ruby会議後、Symbol GCに関してのパッチが送付されているようです。[Feature #9634: [PATCH]Symbol GC - ruby-trunk - Ruby Issue Tracking System](https://bugs.ruby-lang.org/issues/9634)
 
