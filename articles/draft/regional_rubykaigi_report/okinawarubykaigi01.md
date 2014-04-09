@@ -297,7 +297,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 ![kanpe777_salvare234](okinawarubykaigi01/kanpe777_salvare234.jpg)
 
 
-### 「琉大図書館にRuby本を！」([発表資料](http://www.slideshare.net/_siman/ruby-31905851?qid=8ca58c70-4301-47df-b498-d2daa3e917c4&v=qf1&b=&from_search=1))
+### 「琉大図書館にRuby本を！」([発表資料](http://www.slideshare.net/_siman/ruby-31905851))
 
 * 発表者
     * [@_simanman](https://twitter.com/_simanman)
