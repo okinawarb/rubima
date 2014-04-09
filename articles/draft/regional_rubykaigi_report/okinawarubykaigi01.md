@@ -364,7 +364,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
 
 日本Rubyの会ではRubyistの活動を支援しており、[るびま](http://magazine.rubyist.net/)、[るりま](http://docs.ruby-lang.org/ja/)、[Regional RubyKaigi](http://regional.rubykaigi.org/)や[Rails Girls](http://railsgirls.jp/)などの開催の支援しているそうです。
 
-最後に「大事なのは活動、みなさんがコミュニティだ」ということで、今後も沖縄でのRubyistたちによる活動を続けていってほしいとのことでした。
+最後に「大事なのは活動、みなさんがコミュニティだ」ということで、今後も沖縄でRubyistたちによる活動を続けていってほしいとのことでした。
 
 ### 「るびまの話」@gunjisatoshi
 
