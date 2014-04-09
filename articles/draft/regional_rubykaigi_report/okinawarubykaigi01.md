@@ -214,8 +214,6 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 * 資料
     * [rcairoでものづくり](http://www.slideshare.net/mgwsuzuki/ruby-kaigi-rcairo)
 
-    * [Rubyist Magazine - cairo: 2 次元画像描画ライブラリ](http://magazine.rubyist.net/?0019-cairo)
-
 ![rcairo](okinawarubykaigi01/rcairo.jpg)
 
 2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、箱の自動設計を行うプログラムをRubyで作成し、実際に箱を作ってみたという発表でした。今後はGithubに箱の自動設計のプログラム公開し、パラメータをPull Requestすることで簡単に箱を作れるようにしたいとおっしゃっていました。
