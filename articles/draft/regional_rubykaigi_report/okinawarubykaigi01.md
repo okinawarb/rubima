@@ -1,6 +1,6 @@
 ##はじめに
 
-Okinawa.rb の発起人である @yasulab さんが中心となって、沖縄初の「沖縄Ruby会議01」が開催されました。
+Okinawa.rb の発起人である [@yasulab](https://twitter.com/yasulab) さんが中心となって、沖縄初の「沖縄Ruby会議01」が開催されました。
 
 ![okrk01](okinawarubykaigi01/okrk-all.jpg)
 
