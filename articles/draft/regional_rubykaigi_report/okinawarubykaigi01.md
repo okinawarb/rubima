@@ -242,7 +242,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![happy-ruby](okinawarubykaigi01/happy_ruby.jpg)
 
-組み込みで行われる実機テストを手作業・目視確認からRSpec + turnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipの記述でiOSのデバイスをリモート操作できるテストフレームワークを作成中であるという発表でした。
+組み込みで行われる実機テストを手作業・目視確認からRSpec + Turnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipの記述でiOSのデバイスをリモート操作できるテストフレームワークを作成中であるという発表でした。
 
 ## Lightning Talks 2.5 + Sponsored Session
 
