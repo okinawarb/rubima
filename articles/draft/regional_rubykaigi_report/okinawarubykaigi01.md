@@ -408,7 +408,7 @@ Web上にも公開していて実用したユーザのフィードバックを�
 ![1 個の Pull Request の Diff を 200 行以下にしたら捗った話、講演者の画像](okinawarubykaigi01/kbaba1001.jpg)
 
 [@kbaba1001](https://twitter.com/kbaba1001)さんの「小さいPull Request最高!!」話でした。
-小さいPull Requestだと、毎日Pull Requestが出すことができて楽しい、レビューの質があがる、マージが速い!と楽しそうに語っていました。
+小さいPull Requestだと、「毎日PRが出すことができて楽しい、レビューの質があがる、マージが速い!」と楽しそうに語っていました。
 部分的にPullRequestを出すコツを具体的に挙げられており、大変参考になりました。
 
 ### 「カスタムマッチャーを流行らせたい」@moro
