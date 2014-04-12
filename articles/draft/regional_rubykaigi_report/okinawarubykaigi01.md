@@ -216,7 +216,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![rcairo](okinawarubykaigi01/rcairo.jpg)
 
-2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、箱の自動設計を行うプログラムをRubyで作成し、実際に箱を作ってみたという発表でした。今後はGitHubに箱の自動設計のプログラム公開し、パラメータをPull Requestすることで簡単に箱を作れるようにしたいとおっしゃっていました。
+2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、マイコンボードケースを自動設計を行うプログラムをRubyで作成し、実際にケースを作ってみたという発表でした。今後はGitHubに箱の自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にマイコンボードなどのケースを作れるようにしたいとおっしゃっていました。
 
 
 ### 「Rubyに何かをしゃべらせる」
