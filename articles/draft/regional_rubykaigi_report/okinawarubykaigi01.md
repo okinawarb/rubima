@@ -260,7 +260,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![nuruby](okinawarubykaigi01/nuruby.jpg)
 
-北海道からお越しの[@PUPRL](https://twitter.com/PUPRL)さんは、「和室でぬるくRubyをもくもくする」[ぬRuby](http://nuruby.org/)という活動の紹介の地域Rubyに参加することの良さについて語ってくださいました。はじめてのLTであったにも関わらず、ぬRubyの魅力がしっかり伝わったようで、LT後にはぬRubyに参加したいとの言葉をたくさん見受けることができました。
+北海道からお越しの[@PUPRL](https://twitter.com/PUPRL)さんは、「和室でぬるくRubyをもくもくする」[ぬRuby](http://nuruby.org/)の紹介と、地域Ruby会議に参加することの良さについて語ってくださいました。ぬRubyの魅力がしっかり伝わったようで、LT後はぬRubyに参加したいとの声が上がっていました。
 
 
 ### 「The Payment System by Ruby」ウェブペイ株式会社
@@ -276,7 +276,9 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![webpay](okinawarubykaigi01/webpay.jpg)
 
-開発者向けのクレジット決済サービスの[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点をお話してくださりました。シンボルはGCされない問題があり、ユーザ入力をto_symすると問題が起きてしまうという例を取り上げ、シンボルの扱いに関してのお話がありました。5分という短いセッションながらも内容の濃いお話でした。
+開発者向けクレジット決済サービス、[WebPay](https://webpay.jp/)を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点を紹介していただきました。シンボルはGCされないので、ユーザー入力をto_symするとメモリリークが起きてしまう問題が起きてしまうという例を取り上げ、シンボルの扱いに注意するようにとのことでした。5分という短いセッションながらも内容が濃いお話でした。
+
+沖縄Ruby会議後、[SymbolをGCするパッチがCRubyに取り込まれ](https://bugs.ruby-lang.org/issues/9634)、この問題は解決されたようです。
 
 
 ## Lightning Talks 学生枠
