@@ -340,6 +340,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
   * [Lightning Talks 3 (各5分)](http://www.ustream.tv/recorded/44352072)
 
 ### 「RubyKaigiの話」@kakutani
+
 * 発表者
     * [@kakutani](https://twitter.com/kakutani)
 
@@ -348,28 +349,11 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![RubyKaigiの話、講演者の画像](okinawarubykaigi01/kakutani.jpg)
 
-[日本Rubyの会](http://ruby-no-kai.org/)から来た[@kakutani](https://twitter.com/kakutani)さん。
-まずはじめに、一番大事なこととして、今年の9/18〜9/20に行われる[RubyKaigi 2014](http://rubykaigi.org/2014)と、
-間を開けず来年4/9〜4/11日に行われる[RubyKaigi 2015](http://rubykaigi.org/2015)の告知をしてくださいました。
+[日本Rubyの会](http://ruby-no-kai.org/)からお越しの[@kakutani](https://twitter.com/kakutani)さん。2014年9/18から9/20に行われる[RubyKaigi 2014](http://rubykaigi.org/2014)と、2015年4/9から4/11に行われる[RubyKaigi 2015](http://rubykaigi.org/2015)の告知をしてくださいました。
 
-日本Rubyの会ではRubyistの活動を支援しており、[るびま](http://magazine.rubyist.net/)や[るりま](http://docs.ruby-lang.org/ja/)、[Regional RubyKaigi](http://regional.rubykaigi.org/)、[Rails Girls](http://railsgirls.jp/)などの開催の支援しているそうです。
+日本Rubyの会ではRubyistの活動を支援しており、[るびま](http://magazine.rubyist.net/)、[るりま](http://docs.ruby-lang.org/ja/)、[Regional RubyKaigi](http://regional.rubykaigi.org/)や[Rails Girls](http://railsgirls.jp/)などの開催の支援しているそうです。
 
-最後に、大事なのは活動、みなさんがコミュニティだ、ということで、沖縄で続けていってほしいとおっしゃっていました。
-
-沖縄には
-
-- [Ryukyu Rubyist Rookies](https://www.facebook.com/groups/ruby.okinawa/)
-- [Okinawa.rb](https://www.facebook.com/groups/okinawarb/)
-- [ryudai.rb](http://lingr.com/room/ryudairb)
-- [Hackers Champloo](http://hackers-champloo.org/)
-- gFab
-- [ギークハウス沖縄](http://text.geeoki.com/)
-
-の他にもたくさんコミュニティがあります。
-
-[沖縄IT勉強会カレンダー](https://sites.google.com/site/nmtysh/okinawa-it-seminar-calendar)に直近の勉強会やコミュニティの情報がたくさん載っているので、みなさん、沖縄で会いましょう
-!
-
+最後に「大事なのは活動、みなさんがコミュニティだ」ということで、今後も沖縄でRubyistたちによる活動を続けていってほしいとのことでした。
 
 ### 「るびまの話」@gunjisatoshi
 
@@ -381,7 +365,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![るびまの話、講演者の画像](okinawarubykaigi01/gunjisatoshi.jpg)
 
-沖縄のRubyistもお世話になっている、[Rubyist Magazine](http://magazine.rubyist.net/)、略称「るびま」のおはなし。
+沖縄のRubyistもお世話になっている、[Rubyist Magazine](http://magazine.rubyist.net/)、略称「るびま」の話。
 なんと今年の9月に10周年になるそうです。
 
 - Rubyist Magazineの編集プロセス
@@ -391,6 +375,8 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 進捗管理は[GitHub Issues](https://github.com/rubima/rubima/issues)をWatchすると編集部がどんなことをやっているか
 見ることが出来るらしいです。早速Watchしました!
+
+貢献方法としては、
 
 - 記事を読んでフィードバックを送る
 - 記事を投稿する
@@ -410,9 +396,9 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![1 個の Pull Request の Diff を 200 行以下にしたら捗った話、講演者の画像](okinawarubykaigi01/kbaba1001.jpg)
 
-[@kbaba1001](https://twitter.com/kbaba1001)さんの小さいPR最高!!話でした。
-小さいPull Requestだと、毎日PRが出せて楽しい、レビューの質があがる、マージ速い!と楽しそうに語っていました。
-部分的にPullRequestを出すコツを具体的に挙げられていたので、すごく参考になりました。
+[@kbaba1001](https://twitter.com/kbaba1001)さんの「小さいPull Request最高!!」話でした。
+小さいPull Requestだと、「毎日PRが出すことができて楽しい、レビューの質があがる、マージが速い!」と楽しそうに語っていました。
+部分的にPullRequestを出すコツを具体的に挙げられており、大変参考になりました。
 
 ### 「カスタムマッチャーを流行らせたい」@moro
 
@@ -446,7 +432,7 @@ end
 
 ![1,000,000yen Salesforce1 Platform Mobile Hack Challenge、講演者の画像](okinawarubykaigi01/ayumin.jpg)
 
-るびまに掲載される頃には応募が終了しているかもしれませんが、[
+るびま掲載時には応募締め切りが終了していますが、[
 Salesforce1 Platform モバイル開発チャレンジ](http://events.developerforce.com/ja/contests/challengejapan2014)の開催告知でした。
 
 ## ゲスト講演3
