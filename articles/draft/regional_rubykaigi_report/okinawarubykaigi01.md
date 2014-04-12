@@ -216,7 +216,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![rcairo](okinawarubykaigi01/rcairo.jpg)
 
-2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、自動設計するプログラムをRubyで作成、1時間20分ほどで完成することができたそうです。今後はGithubに自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にハコを作れるようにしたいとおっしゃっていました。
+2Dグラフィックス用のCライブラリである[cairo](http://cairographics.org/)をRubyでバインディングした[rcairo](https://github.com/rcairo/rcairo)を使って、箱の自動設計を行うプログラムをRubyで作成し、実際に箱を作ってみたという発表でした。今後はGitHubに箱の自動設計のプログラム公開し、パラメータをPull Requestすることで簡単に箱を作れるようにしたいとおっしゃっていました。
 
 
 ### 「Rubyに何かをしゃべらせる」
@@ -229,7 +229,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![talk-ruby](okinawarubykaigi01/talk_ruby.jpg)
 
-[Twilio](http://www.twilio.com/)とRubyを使って、ただひたすらオヤジギャクを喋らせる番号を取得したが、喋るオヤジギャクが本当に面白いものなのかというのをどう判定するかのアルゴリズムをRubyで考えたいというようなお話でした。オヤジギャクを扱いながらも、何をもって面白いのかを真面目に考察する発表に会場からは笑いが起こっていました。
+[Twilio](http://www.twilio.com/)とRubyを使ってオヤジギャクを喋るプログラムを作成し、実際にオヤジギャクが流れる電話番号を取得、公開して聴衆の皆さんにかけてもらうデモを披露していただきました。今後は「電話口から流れるオヤジギャクが本当に面白いか」のアルゴリズムを考えたいとのことでした。発表の所々にオヤジギャクを散りばめつつ、何をもって面白いのかを真面目に考察、発表する姿に会場は大いに盛り上がりました。
 
 
 ### 「組み込みにもiOSにもrubyで幸せ（仮）」
@@ -242,7 +242,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 ![happy-ruby](okinawarubykaigi01/happy_ruby.jpg)
 
-組み込みで行われる実機テストを、手作業からRSpecとturnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipを記述でiOSのデバイスをリモート操作できるようなテストフレームワークを作成中であるとおっしゃっていました
+組み込み開発で行われる実機テストを手作業・目視確認からRSpec + Turnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipの記述でiOSのデバイスをリモート操作できるテストフレームワークを作成中とのことでした。
 
 ## Lightning Talks 2.5 + Sponsored Session
 
