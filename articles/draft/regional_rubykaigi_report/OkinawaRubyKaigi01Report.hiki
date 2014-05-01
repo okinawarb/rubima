@@ -136,5 +136,21 @@ https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi
 
 組み込み開発で行われる実機テストを手作業・目視確認からRSpec + Turnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipの記述でiOSのデバイスをリモート操作できるテストフレームワークを作成中とのことでした。
 
+! Lightning Talks 2.5 + Sponsored Session
+!! 『きたのくにからこんにちぬー！』([[資料|http://www.slideshare.net/AsamiImazu/okrk01-kitanokunikarakonnnichinu]]) ([[動画1|http://www.ustream.tv/recorded/44351500]] [[動画2|http://www.ustream.tv/recorded/44351537]])
+!!! [[@PUPRL|https://twitter.com/PUPRL]]
+
+::https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/nuruby.jpg
+
+北海道からお越しの[[@PUPRL|https://twitter.com/PUPRL]]さんは、「和室でぬるくRubyをもくもくする」[[ぬRuby|http://nuruby.org/]]の紹介と、地域Ruby会議に参加することの良さについて語ってくださいました。ぬRubyの魅力がしっかり伝わったようで、LT後はぬRubyに参加したいとの声が上がっていました。
+
+!! 『The Payment System by Ruby』([[動画|http://www.ustream.tv/recorded/44351293]])
+!!! [[@sowawa|https://twitter.com/sowawa]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/webpay.jpg
+
+開発者向けクレジット決済サービス、[[WebPay|https://webpay.jp/]]を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点を紹介していただきました。シンボルはGCされないので、ユーザー入力をto_symするとメモリリークが起きてしまう問題が起きてしまうという例を取り上げ、シンボルの扱いに注意するようにとのことでした。5分という短いセッションながらも内容が濃いお話でした。
+
+沖縄Ruby会議後、[[SymbolをGCするパッチがCRubyに取り込まれ|https://bugs.ruby-lang.org/issues/9634]]、この問題は解決されたようです。
 
 
