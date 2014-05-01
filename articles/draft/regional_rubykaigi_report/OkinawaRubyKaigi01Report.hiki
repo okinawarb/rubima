@@ -153,4 +153,28 @@ https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi
 
 沖縄Ruby会議後、[[SymbolをGCするパッチがCRubyに取り込まれ|https://bugs.ruby-lang.org/issues/9634]]、この問題は解決されたようです。
 
+! Lightning Talks 学生枠 ([[動画|http://www.ustream.tv/recorded/44351656]])
+学生を募集対象としたLT枠も設け、計6名学生が登壇しました。
+ほとんどが作成したWebサービスの紹介であるため、サービス・発表資料のリンクと発表者の紹介のみを掲載します。
+
+* 『[[SharePla|http://sharepla.herokuapp.com]]』(発表者:[[@kanpe777|https://twitter.com/kanpe777]] [[@salvare234|https://twitter.com/salvare234]])
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/kanpe777_salvare234.jpg
+
+* 『[[琉大図書館にRuby本を！|http://www.slideshare.net/_siman/ruby-31905851]]』(発表者:[[@_simanman|https://twitter.com/_simanman]])
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/simanman.jpg
+
+* 『[[Mac Friends|http://macfriends.net]]』([[資料|https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi]] 発表者:[[@enkw_|https://twitter.com/enkw_]])
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/enkw.jpg
+
+* 『[[instag|http://instag.herokuapp.com]]』(発表者:[[@nanophate|https://twitter.com/nanophate]])
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/nanophate.jpg
+
+* 『[[Once-Tech|http://once-tech.net]]』(発表者:[[@motikan2010|https://twitter.com/motikan2010]])
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/motikan2010.jpg
+
 
