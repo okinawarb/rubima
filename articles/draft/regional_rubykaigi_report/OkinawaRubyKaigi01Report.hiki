@@ -63,3 +63,53 @@ https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi
 ログ収集ツールとして注目される[[fluentd|http://fluentd.org]]を使い、バッチ業務をストリーム処理化する手法を紹介して頂きました。
 通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
 プラグインは[[RubyGem|https://www.ruby-lang.org/ja/libraries/]]の形式で導入することが出来るため、手軽に機能を追加出来るとおっしゃっていました。
+
+!! 『Emacsの普通の使い方』([[資料|http://kinjo.github.io/okrk01/#/title]])
+!!! [[@libkinjo|https://twitter.com/libkinjo]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/libkinjo.jpg
+
+Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、@libkinjoさんはEmacsのscratchバッファでelispと対話するようにRubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行し、結果を受け取るデモを実際に動かして頂きました。
+
+「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
+
+
+!! 『RyukyuFrogsとLexues Academyの話』
+!!! 山崎暁 ([[株式会社レキサス|http://lexues.co.jp]])
+
+::https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/yamazaki.jpg
+
+沖縄Ruby会議のスポンサーをしていただいた[[株式会社レキサス|http://www.lexues.co.jp/]]の山崎さんから、沖縄県内の学生を育成するプロジェクト[[RyukyuFrogs|http://www.ryukyu-frogs.com]]と[[Lexues Academy|http://academy.lexues.co.jp]]をご紹介していただきました。後述する学生LT枠では2つの育成プロジェクトに参加した学生たちも登壇していました。
+
+! 沖縄県内コミュニティの活動紹介[[動画|http://www.ustream.tv/recorded/44349362]]
+
+沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
+ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました。
+ここでは各コミュニティのリンク、当日の発表資料、発表者を紹介します。
+
+* [[Ryukyu Rubyist Rookies|https://www.facebook.com/groups/ruby.okinawa/]] [[資料|http://www.slideshare.net/repserc/ryukyu-rubyist-rookies]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/repserc.jpg
+
+
+* [[Ryudai.rb|http://lingr.com/room/ryudairb]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/_simanman.jpg
+
+* [[Okinawa.rb|https://www.facebook.com/groups/okinawarb/]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/yasulab.jpg
+
+* [[ハッカーズチャンプルー|http://hackers-champloo.org/]] [[資料|http://www.slideshare.net/KoichiroNishijima/20140301lt]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/k_nishijima.jpg
+
+* [[ギークハウス沖縄|http://text.geeoki.com]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/kimihito_.jpg
+
+* [[gFab|http://gfab-okinawa.github.io/]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/nanophate-gfab.jpg
+
