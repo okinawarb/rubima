@@ -177,4 +177,97 @@ https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi
 
 https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/motikan2010.jpg
 
+! Lightning Talks 3 ([[動画|http://www.ustream.tv/recorded/44352072]])
+!! 『RubyKaigiの話』([[資料|https://speakerdeck.com/kakutani/all-about-ruby-no-kai-in-okinawa-rubykaigi-01]])
+!!! [[@kakutani|https://twitter.com/kakutani]]
 
+::https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/kakutani.jpg
+
+[[日本Rubyの会|http://ruby-no-kai.org/]]からお越しの[[@kakutani|https://twitter.com/kakutani]]さん。2014年9/18から9/20に行われる[[RubyKaigi 2014|http://rubykaigi.org/2014]]と、2015年4/9から4/11に行われる[[RubyKaigi 2015|http://rubykaigi.org/2015]]の告知をしてくださいました。
+
+日本Rubyの会ではRubyistの活動を支援しており、[[るびま|http://magazine.rubyist.net/]]、[[るりま|http://docs.ruby-lang.org/ja/]]、[[Regional RubyKaigi|http://regional.rubykaigi.org/]]や[[Rails Girls|http://railsgirls.jp/]]などの開催の支援しているそうです。
+
+最後に「大事なのは活動、みなさんがコミュニティだ」ということで、今後も沖縄でRubyistたちによる活動を続けていってほしいとのことでした。
+
+
+!! 『るびまの話』
+!!! [[@gunjisatoshi|https://twitter.com/gunjisatoshi]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/gunjisatoshi.jpg
+
+沖縄のRubyistもお世話になっている、[[Rubyist Magazine|http://magazine.rubyist.net/]]、略称「るびま」の話。
+なんと今年の9月に10周年になるそうです。
+
+* Rubyist Magazineの編集プロセス
+* あなたにも出来る貢献
+
+についてお話してくださいました。
+
+進捗管理は[[GitHub Issues|https://github.com/rubima/rubima/issues]]をWatchすると編集部がどんなことをやっているか
+見ることが出来るらしいです。筆者も早速Watchしました!
+
+貢献方法としては、
+
+* 記事を読んでフィードバックを送る
+* 記事を投稿する
+* 企画の提案をする
+* システム(Hiki)の不具合を直す
+* 編集者コミュニティへ参加する
+
+などなどいろいろな貢献方法があるそうです。
+
+!! 『1 個の Pull Request の Diff を 200 行以下にしたら捗った話』([[資料|https://speakerdeck.com/kbaba1001/pull-requestfalsediffwo200xing-yi-xia-nisitarabu-tutahua]])
+!!! [[@kbaba1001|https://twitter.com/kbaba1001]]
+
+::https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/kbaba1001.jpg
+
+[[@kbaba1001|https://twitter.com/kbaba1001]]さんの「小さいPull Request最高!!」話でした。
+小さいPull Requestだと、「毎日PRが出すことができて楽しい、レビューの質があがる、マージが速い!」と楽しそうに語っていました。
+部分的にPullRequestを出すコツを具体的に挙げられており、大変参考になりました。
+
+!! 『カスタムマッチャーを流行らせたい』([[資料|https://speakerdeck.com/moro/suggestion-for-rspec-custom-matcher]])
+!!! [[@moro|https://twitter.com/moro]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/moro.jpg
+
+RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる!楽しくなる!という話でした。
+
+真偽値を返す`match`を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
+
+<<|ruby|
+
+RSpec::Matchers.define(:matchers_name) do |expected|
+  match do |actual|
+    actual == expected
+  end
+end
+
+||>>
+
+!!『1,000,000yen Salesforce1 Platform Mobile Hack Challenge』
+!!! [[@ayumin|https://twitter.com/ayumin]]
+::https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/ayumin.jpg
+
+るびま掲載時には応募締め切りが終了していますが、[[Salesforce1 Platform モバイル開発チャレンジ|http://events.developerforce.com/ja/contests/challengejapan2014]]の開催告知でした。
+
+! ゲスト講演3 ([[動画|http://www.ustream.tv/recorded/44352699]])
+!! 『mrubyを使うポイント』
+!!! [[田中 和明 准教授|http://www.kyutech.ac.jp/professors/iizuka/i4/i4-2/entry-714.html]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/mruby.jpg
+
+オープンソースでの開発がすすむ軽量rubyこと[[mruby|http://www.mruby.org/]]を使うポイントについて講演していただきました。
+
+組み込み開発では主にCが常用されていますが、生産性向上のためにRubyで開発したい！というのがmrubyが生まれた理由のひとつです。
+
+RubyはCなどに比べると実行速度が遅いため組み込み開発には向かないとされていますが、実行速度が速ければいいというわけではなく、一定時間内に処理が完了することを保証するリアルタイム性が満たせていることが組み込み開発では重要です。
+
+mrubyではRubyの強みであるGCによるメモリ管理を生かしつつ、リアルタイム性を両立するため、GCが一定時間以内に完了する「インクリメンタルGC」を採用しているとのことでした。
+
+mrubyのコードはRiteBinaryと呼ばれるバイトコードに変換され、仮想マシン上でプログラムを実行します。
+そのため書くハードウェア向けの仮想マシン作ってしまえば、mrubyプログラムをPC上でもマイコン上でも全く同じコードを動かすことが可能となります。
+
+また田中先生が大学で行っている研究として、mrubyに特化したハードウェアの開発の紹介がありました。
+研究の例としてmrubyのメソッド呼び出し時に頻繁に使われるハッシュ関数をLSIチップ上で実装し、文字列操作を行うプログラムの性能を20%上昇させることに成功したとのことでした。
+
+実際にデモを交えながらの講演の様子は、上記の動画リンクでも見ることが可能です。
