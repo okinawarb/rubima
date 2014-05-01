@@ -113,3 +113,28 @@ https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi
 
 https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/nanophate-gfab.jpg
 
+!  Lightning Talks 2 ([[動画|http://www.ustream.tv/recorded/44350011]])
+!! 『rcairoでものづくり』([[資料|http://www.slideshare.net/mgwsuzuki/ruby-kaigi-rcairo]])
+!!! [[@mgwsuzuki|https://twitter.com/mgwsuzuki]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/rcairo.jpg
+
+2Dグラフィックス用のCライブラリである[[cairo|http://cairographics.org/]]をRubyでバインディングした[[rcairo|https://github.com/rcairo/rcairo]]を使って、マイコンボードケースを自動設計を行うプログラムをRubyで作成し、実際にケースを作ってみたという発表でした。今後はGitHubに箱の自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にマイコンボードなどのケースを作れるようにしたいとおっしゃっていました。
+
+
+!! 『Rubyに何かをしゃべらせる』
+!!! [[Yoichi Kobayashi|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+::https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/talk_ruby.jpg
+
+[[Twilio|http://www.twilio.com/]]とRubyを使ってオヤジギャクを喋るプログラムを作成し、実際にオヤジギャクが流れる電話番号を取得、公開して聴衆の皆さんにかけてもらうデモを披露していただきました。今後は「電話口から流れるオヤジギャクが本当に面白いか」のアルゴリズムを考えたいとのことでした。発表の所々にオヤジギャクを散りばめつつ、何をもって面白いのかを真面目に考察、発表する姿に会場は大いに盛り上がりました。
+
+!! 『組み込みにもiOSにもrubyで幸せ（仮）』([[資料|http://www.slideshare.net/shumach217/ruby01-31912722]])
+!!! [[@shumach217|https://twitter.com/shumach217]]
+
+https://github.com/okinawarb/rubima/raw/master/articles/draft/regional_rubykaigi_report/okinawarubykaigi01/happy_ruby.jpg
+
+組み込み開発で行われる実機テストを手作業・目視確認からRSpec + Turnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipの記述でiOSのデバイスをリモート操作できるテストフレームワークを作成中とのことでした。
+
+
+
