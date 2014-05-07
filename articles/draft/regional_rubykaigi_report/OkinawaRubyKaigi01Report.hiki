@@ -78,7 +78,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 沖縄Ruby会議のスポンサーをしていただいた[[株式会社レキサス|http://www.lexues.co.jp/]]の山崎さんから、沖縄県内の学生を育成するプロジェクト[[RyukyuFrogs|http://www.ryukyu-frogs.com]]と[[Lexues Academy|http://academy.lexues.co.jp]]をご紹介していただきました。後述する学生LT枠では2つの育成プロジェクトに参加した学生たちも登壇していました。
 
-! 沖縄県内コミュニティの活動紹介[[動画|http://www.ustream.tv/recorded/44349362]]
+! 沖縄県内コミュニティの活動紹介([[動画|http://www.ustream.tv/recorded/44349362]])
 
 沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
 ものづくりのコミュニティから、エンジニアの集うシェアハウスまでの計5つのコミュニティの発表を行いました。
@@ -86,28 +86,15 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 
 * [[Ryukyu Rubyist Rookies|https://www.facebook.com/groups/ruby.okinawa/]] [[資料|http://www.slideshare.net/repserc/ryukyu-rubyist-rookies]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/repserc.jpg
-
-
 * [[Ryudai.rb|http://lingr.com/room/ryudairb]]
-
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/_simanman.jpg
 
 * [[Okinawa.rb|https://www.facebook.com/groups/okinawarb/]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/yasulab.jpg
-
 * [[ハッカーズチャンプルー|http://hackers-champloo.org/]] [[資料|http://www.slideshare.net/KoichiroNishijima/20140301lt]]
-
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/k_nishijima.jpg
 
 * [[ギークハウス沖縄|http://text.geeoki.com]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/geeoki.jpg
-
 * [[gFab|http://gfab-okinawa.github.io/]]
-
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/nanophate-gfab.jpg
 
 !  Lightning Talks 2 ([[動画|http://www.ustream.tv/recorded/44350011]])
 !! 『rcairoでものづくり』([[資料|http://www.slideshare.net/mgwsuzuki/ruby-kaigi-rcairo]])
@@ -231,11 +218,11 @@ RSpecのカスタムマッチャーで、アプリケーションロジックを
 真偽値を返す`match`を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
 
 
-RSpec::Matchers.define(:matchers_name) do |expected|
-  match do |actual|
-    actual == expected
+  RSpec::Matchers.define(:matchers_name) do |expected|
+    match do |actual|
+      actual == expected
+    end
   end
-end
 
 !!『1,000,000yen Salesforce1 Platform Mobile Hack Challenge』
 !!! [[@ayumin|https://twitter.com/ayumin]]
