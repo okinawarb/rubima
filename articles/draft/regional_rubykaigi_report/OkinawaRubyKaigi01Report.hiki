@@ -19,7 +19,7 @@ Okinawa.rb の発起人である[[@yasulab|https://twitter.com/yasulab]]さん�
 !! 『Change Your World』([[動画(12:33頃から)|http://www.ustream.tv/recorded/44345761]])
 !!! [[@yukihiro_matz|https://twitter.com/yukihiro_matz]]
 
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/matz.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/matz.jpg
 
 初沖縄のまつもとさん、首里城がプリントされたTシャツを着て登壇されました。発表前には沖縄にある炭酸飲料、ルートビアの話をなさったりと、沖縄を満喫されたようでした。会場は満員で立ち見が出るほどでした。
 
@@ -43,7 +43,7 @@ Okinawa.rb の発起人である[[@yasulab|https://twitter.com/yasulab]]さん�
 !! 『Rubyを使って3人/日でアプリをリリースしよう』([[動画1|http://www.ustream.tv/recorded/44347244]][[動画2|http://www.ustream.tv/recorded/44347759]])
 !!! [[@masuidrive|https://twitter.com/masuidrive]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/masuidrive.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/masuidrive.jpg
 
 
 風呂グラマーとして有名な@masuidriveさん。[[wri.pe|https://wri.pe/]]を作る過程、ローンチ後の運用部分などのお話を伺いました。「自分が普段使うものを作ろう」と、メモアプリであるwri.peの基本機能を3日で実装したそうです。プレスを打つ、運用、顧客対応などの広い範囲を経験できたことから、何か小さなものでもいいからプロダクトを作ってみることを薦めていました。
@@ -54,7 +54,7 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 !! 『Rubyによるバッチ業務のストリーム処理化の設計と実装』([[資料|https://speakerdeck.com/bash0c7/design-and-implement-batch-stream-processing-application-for-ruby]])
 !!! [[@bash0C7|https://twitter.com/bash0C7]]
 
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/bash07.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/bash07.jpg
 
 ログ収集ツールとして注目される[[fluentd|http://fluentd.org]]を使い、バッチ業務をストリーム処理化する手法を紹介して頂きました。
 通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
@@ -63,7 +63,7 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 !! 『Emacsの普通の使い方』([[資料|http://kinjo.github.io/okrk01/#/title]])
 !!! [[@libkinjo|https://twitter.com/libkinjo]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/libkinjo.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/libkinjo.jpg
 
 Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、@libkinjoさんはEmacsのscratchバッファでelispと対話するようにRubyとも対話したいと考えました。
 comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行し、結果を受け取るデモを実際に動かして頂きました。
@@ -74,7 +74,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 !! 『RyukyuFrogsとLexues Academyの話』
 !!! 山崎暁 ([[株式会社レキサス|http://lexues.co.jp]])
 
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/yamazaki.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/yamazaki.jpg
 
 沖縄Ruby会議のスポンサーをしていただいた[[株式会社レキサス|http://www.lexues.co.jp/]]の山崎さんから、沖縄県内の学生を育成するプロジェクト[[RyukyuFrogs|http://www.ryukyu-frogs.com]]と[[Lexues Academy|http://academy.lexues.co.jp]]をご紹介していただきました。後述する学生LT枠では2つの育成プロジェクトに参加した学生たちも登壇していました。
 
@@ -100,7 +100,7 @@ comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実
 !! 『rcairoでものづくり』([[資料|http://www.slideshare.net/mgwsuzuki/ruby-kaigi-rcairo]])
 !!! [[@mgwsuzuki|https://twitter.com/mgwsuzuki]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/rcairo.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/rcairo.jpg
 
 2Dグラフィックス用のCライブラリである[[cairo|http://cairographics.org/]]をRubyでバインディングした[[rcairo|https://github.com/rcairo/rcairo]]を使って、マイコンボードケースを自動設計を行うプログラムをRubyで作成し、実際にケースを作ってみたという発表でした。今後はGitHubに箱の自動設計のプログラム公開し、パラメータをPull Requestすることで簡単にマイコンボードなどのケースを作れるようにしたいとおっしゃっていました。
 
@@ -108,14 +108,14 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 !! 『Rubyに何かをしゃべらせる』
 !!! [[Yoichi Kobayashi|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
 
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/talk_ruby.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/talk_ruby.jpg
 
 [[Twilio|http://www.twilio.com/]]とRubyを使ってオヤジギャクを喋るプログラムを作成し、実際にオヤジギャクが流れる電話番号を取得、公開して聴衆の皆さんにかけてもらうデモを披露していただきました。今後は「電話口から流れるオヤジギャクが本当に面白いか」のアルゴリズムを考えたいとのことでした。発表の所々にオヤジギャクを散りばめつつ、何をもって面白いのかを真面目に考察、発表する姿に会場は大いに盛り上がりました。
 
 !! 『組み込みにもiOSにもrubyで幸せ（仮）』([[資料|http://www.slideshare.net/shumach217/ruby01-31912722]])
 !!! [[@shumach217|https://twitter.com/shumach217]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/happy_ruby.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/happy_ruby.jpg
 
 組み込み開発で行われる実機テストを手作業・目視確認からRSpec + Turnipを使った自動化に変更したお話から、iOSの開発においても同様なアプローチができるのではないかと考え、turnipの記述でiOSのデバイスをリモート操作できるテストフレームワークを作成中とのことでした。
 
@@ -123,14 +123,14 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 !! 『きたのくにからこんにちぬー！』([[資料|http://www.slideshare.net/AsamiImazu/okrk01-kitanokunikarakonnnichinu]]) ([[動画1|http://www.ustream.tv/recorded/44351500]] [[動画2|http://www.ustream.tv/recorded/44351537]])
 !!! [[@PUPRL|https://twitter.com/PUPRL]]
 
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/nuruby.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/nuruby.jpg
 
 北海道からお越しの[[@PUPRL|https://twitter.com/PUPRL]]さんは、「和室でぬるくRubyをもくもくする」[[ぬRuby|http://nuruby.org/]]の紹介と、地域Ruby会議に参加することの良さについて語ってくださいました。ぬRubyの魅力がしっかり伝わったようで、LT後はぬRubyに参加したいとの声が上がっていました。
 
 !! 『The Payment System by Ruby』([[動画|http://www.ustream.tv/recorded/44351293]])
 !!! [[@sowawa|https://twitter.com/sowawa]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/webpay.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/webpay.jpg
 
 開発者向けクレジット決済サービス、[[WebPay|https://webpay.jp/]]を開発しているウェブペイ株式会社のスポンサーセッションでは、Rubyでセキュアなプログラミングを行う際の注意点を紹介していただきました。シンボルはGCされないので、ユーザー入力をto_symするとメモリリークが起きてしまう問題が起きてしまうという例を取り上げ、シンボルの扱いに注意するようにとのことでした。5分という短いセッションながらも内容が濃いお話でした。
 
@@ -142,29 +142,24 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 
 * 『[[SharePla|http://sharepla.herokuapp.com]]』(発表者:[[@kanpe777|https://twitter.com/kanpe777]] [[@salvare234|https://twitter.com/salvare234]])
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/kanpe777_salvare234.jpg
 
 * 『[[琉大図書館にRuby本を！|http://www.slideshare.net/_siman/ruby-31905851]]』(発表者:[[@_simanman|https://twitter.com/_simanman]])
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/simanman.jpg
 
 * 『[[Mac Friends|http://macfriends.net]]』([[資料|https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi]] 発表者:[[@enkw_|https://twitter.com/enkw_]])
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/enkw.jpg
 
 * 『[[instag|http://instag.herokuapp.com]]』(発表者:[[@nanophate|https://twitter.com/nanophate]])
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/nanophate.jpg
 
 * 『[[Once-Tech|http://once-tech.net]]』(発表者:[[@motikan2010|https://twitter.com/motikan2010]])
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/motikan2010.jpg
 
 ! Lightning Talks 3 ([[動画|http://www.ustream.tv/recorded/44352072]])
 !! 『RubyKaigiの話』([[資料|https://speakerdeck.com/kakutani/all-about-ruby-no-kai-in-okinawa-rubykaigi-01]])
 !!! [[@kakutani|https://twitter.com/kakutani]]
 
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/kakutani.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/kakutani.jpg
 
 [[日本Rubyの会|http://ruby-no-kai.org/]]からお越しの[[@kakutani|https://twitter.com/kakutani]]さん。2014年9/18から9/20に行われる[[RubyKaigi 2014|http://rubykaigi.org/2014]]と、2015年4/9から4/11に行われる[[RubyKaigi 2015|http://rubykaigi.org/2015]]の告知をしてくださいました。
 
@@ -176,7 +171,7 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 !! 『るびまの話』
 !!! [[@gunjisatoshi|https://twitter.com/gunjisatoshi]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/gunjisatoshi.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/gunjisatoshi.jpg
 
 沖縄のRubyistもお世話になっている、[[Rubyist Magazine|http://magazine.rubyist.net/]]、略称「るびま」の話。
 なんと今年の9月に10周年になるそうです。
@@ -202,7 +197,7 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 !! 『1 個の Pull Request の Diff を 200 行以下にしたら捗った話』([[資料|https://speakerdeck.com/kbaba1001/pull-requestfalsediffwo200xing-yi-xia-nisitarabu-tutahua]])
 !!! [[@kbaba1001|https://twitter.com/kbaba1001]]
 
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/kbaba1001.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/kbaba1001.jpg
 
 [[@kbaba1001|https://twitter.com/kbaba1001]]さんの「小さいPull Request最高!!」話でした。
 小さいPull Requestだと、「毎日PRが出すことができて楽しい、レビューの質があがる、マージが速い!」と楽しそうに語っていました。
@@ -211,22 +206,16 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 !! 『カスタムマッチャーを流行らせたい』([[資料|https://speakerdeck.com/moro/suggestion-for-rspec-custom-matcher]])
 !!! [[@moro|https://twitter.com/moro]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/moro.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/moro.jpg
 
 RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる!楽しくなる!という話でした。
 
-真偽値を返す`match`を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
+真偽値を返す  match を書くだけで簡単にカスタムマッチャーが定義出来るので、積極的に使っていきたいですね。
 
-
-  RSpec::Matchers.define(:matchers_name) do |expected|
-    match do |actual|
-      actual == expected
-    end
-  end
 
 !!『1,000,000yen Salesforce1 Platform Mobile Hack Challenge』
 !!! [[@ayumin|https://twitter.com/ayumin]]
-::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/ayumin.jpg
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/ayumin.jpg
 
 るびま掲載時には応募締め切りが終了していますが、[[Salesforce1 Platform モバイル開発チャレンジ|http://events.developerforce.com/ja/contests/challengejapan2014]]の開催告知でした。
 
@@ -234,7 +223,7 @@ RSpecのカスタムマッチャーで、アプリケーションロジックを
 !! 『mrubyを使うポイント』
 !!! [[田中 和明 准教授|http://www.kyutech.ac.jp/professors/iizuka/i4/i4-2/entry-714.html]]
 
-https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/mruby.jpg
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/mruby.jpg
 
 オープンソースでの開発がすすむ軽量rubyこと[[mruby|http://www.mruby.org/]]を使うポイントについて講演していただきました。
 
