@@ -1,0 +1,300 @@
+! RegionalRubyKaigi レポート (??) 沖縄 Ruby 会議 01
+!! はじめに
+
+Okinawa.rb の発起人である[[@yasulab|https://twitter.com/yasulab]]さんが中心となって、沖縄初の「沖縄Ruby会議01」が開催されました。
+
+!! 開催概要
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/okrk-all.jpg
+:開催日:2014-03-01(土) 13:00 - 18:00
+:開催場所:琉球大学 工学部１号館 大教室 322 (本会場) & 321 (サテライト会場)
+:主催:[[Okinawa.rb|https://www.facebook.com/groups/okinawarb/]] Ryudai.rb [[Ryukyu.rb|https://www.facebook.com/groups/ruby.okinawa/]]
+
+:参加者:およそ 100 名
+:資料:[[公式ページ|http://regional.rubykaigi.org/okrk01]]
+:公式タグ:[[okrk01|http://b.hatena.ne.jp/search/tag?q=okrk01&users=1]]
+:公式ハッシュタグ:[[#okrk01|http://twitter.com/search?q=%23okrk01]]
+:沖縄 Ruby 会議 01 ツイートまとめ:http://togetter.com/li/636273
+
+! ゲスト講演1
+!! 『Change Your World』([[動画(12:33頃から)|http://www.ustream.tv/recorded/44345761]])
+!!! [[@yukihiro_matz|https://twitter.com/yukihiro_matz]]
+
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/matz.jpg
+
+初沖縄のまつもとさん、首里城がプリントされたTシャツを着て登壇されました。発表前には沖縄にある炭酸飲料、ルートビアの話をなさったりと、沖縄を満喫されたようでした。会場は満員で立ち見が出るほどでした。
+
+前夜祭のときから、「すごくエモい話をしようと思っている」とおっしゃっていましたが、本当に大変エモい話でした。
+
+まず「世界はソフトウェアで動いている」と、まつもとさんから見た世界の話をされていました。
+
+そこから「ガリレオ温度計のように、みんな固有の魂の浮力をもっている」、「魂の浮力がちょうどいいところにいるときに幸せになれる」といった話にはじまり、
+スーツで出社する会社にジーンズで出社したら誰も何も言わなかったこと、自らがロシア語の関数名やコメントで困った経験から、日本語のドキュメントを英語でも書いたことなど、まつもとさんが自ら自分の世界を変えてきた話をされていました。
+
+最後には「あなたはあなたの世界を変えることができる」、「勝手にルールを変えることで幸せになる」とおっしゃり、僕たちが変えられないと思っている世界は意外と変えられるよ、というメッセージが伝わってきました。
+
+上記の動画のリンクは、途中までしか録画されていません。
+
+当日話を聞けなかった方は、来場者のブログからまつもとさんの話のエモさが伝わってくるかもしれませんね。
+
+* [[沖縄Ruby会議01に参加しました|http://little-braver.com/366/]]
+* [[「沖縄Ruby会議０１」に参加してきたよ？ - uranariのブログ|http://uranari.hatenablog.com/entry/2014/03/02/030546]]
+
+! ゲスト講演2
+!! 『Rubyを使って3人/日でアプリをリリースしよう』([[動画1|http://www.ustream.tv/recorded/44347244]][[動画2|http://www.ustream.tv/recorded/44347759]])
+!!! [[@masuidrive|https://twitter.com/masuidrive]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/masuidrive.jpg
+
+
+風呂グラマーとして有名な@masuidriveさん。[[wri.pe|https://wri.pe/]]を作る過程、ローンチ後の運用部分などのお話を伺いました。「自分が普段使うものを作ろう」と、メモアプリであるwri.peの基本機能を3日で実装したそうです。プレスを打つ、運用、顧客対応などの広い範囲を経験できたことから、何か小さなものでもいいからプロダクトを作ってみることを薦めていました。
+
+※沖縄Ruby会議実施後にwri.peのソースコードが公開されたようです。[[wri.peのソースコードを公開しました。 | @masuidrive blog|http://blog.masuidrive.jp/2014/03/31/open-wri-pe/]]
+
+! Lightning Talks 1 + Sponsored Session ([[動画|http://www.ustream.tv/recorded/44348324]])
+!! 『Rubyによるバッチ業務のストリーム処理化の設計と実装』([[資料|https://speakerdeck.com/bash0c7/design-and-implement-batch-stream-processing-application-for-ruby]])
+!!! [[@bash0C7|https://twitter.com/bash0C7]]
+
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/bash07.jpg
+
+ログ収集ツールとして注目される[[fluentd|http://fluentd.org]]を使い、バッチ業務をストリーム処理化する手法を紹介して頂きました。
+通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
+プラグインは[[RubyGem|https://www.ruby-lang.org/ja/libraries/]]の形式で導入することが出来るため、手軽に機能を追加出来るとおっしゃっていました。
+
+!! 『Emacsの普通の使い方』([[資料|http://kinjo.github.io/okrk01/#/title]])
+!!! [[@libkinjo|https://twitter.com/libkinjo]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/libkinjo.jpg
+
+Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、@libkinjoさんはEmacsのscratchバッファでelispと対話するようにRubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行し、結果を受け取るデモを実際に動かして頂きました。
+
+「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
+
+
+!! 『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行し、結果を受け取るデモを実際に動かして頂きました。
+
+「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
+
+
+!! 『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行しã取るデモを実際に動かして頂きました。
+
+「scratchバã²縄県内コミュニティの活動紹介([[動画|http://www.ustream.tv/recorded/44349362]])
+
+沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
+ものづくりのコミュニティから、エンジニアの集聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
+
+
+!! 『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行しã取]
+取るデモを実際に動かして頂きました。
+
+「scratchバã²縄県内コミュニティの活動紹介([[動画|http://www.ustream.tv/recorded/44349362]])
+
+沖縄のRubyコミュニティだけでなく、県内で活動するコミュニティ紹介のLTも行いました。
+ものづくりのコミュニティa.ratchバã²縄県内コミュニティの活動紹介([[åa けでなく、県内で活動するコミュニティ紹介のLTも行いました。
+ものづくりのコミュニティから、エンã¾した。
+ものづくりのコミュニティから、エンジニアのé¼場を盛り上げて頂きました。
+
+
+!! 『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsバッãg.elを使ってEmacsバッファ内でRubyのコードを実行しã取]
+取るデモを実際に動かして頂きました。
+
+「scratchバã²çを実行しã取]
+取るデモを実際に動ス介([[動画|http://www.ustream.tv/recorded/44349362]])
+
+沖縄のRubyコミュニティだけでなく、県内で活動するコミã『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsた。
+
+
+!! 『Rubyに何かをしゃべらせる』
+!!! [[Yoichi Kobayashi|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/talk_ruby.jpg
+
+[[Twilio|http://www.twilio.com/]]とRubyを使ってオヤジギャクを喋るプログラムを作成し、実際にオヤジギャクが流れる電話番号を取得、公開して聴衆の皆さんにかけてもらうデモを披露していただきました。今後は「電話口から流れるオヤジギャクが本当に面白いか」モを実際に動ス介([[動画|http://www.ustream.tv/recorded/44349362]])
+
+沖縄のRubyコミュニティãコミã『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsた。
+«Rubyとも対話したいと考えました。
+cttる』
+!!! [[Yoichi Kobayashi|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/kimihito/te01_hiki/talk_ruby.jpg
+
+[[Twilio|http://www.twilio.com/]]とRubyを使ってオヤジギャクを喋るプログラムを作成し、実際にオヤジギャクが流れる電話番号を取得、公開しãr。今後は「電話口から流れるオヤジギャクが本当に面白いか」モを実際に動ス介([[動画|http://www.ustream.tv/recorded/44349362]])
+
+沖縄のRubyコミュニティãコミãるテストフレームワークを作成中とのことでした。
+
+! Lighティãコミã『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsた。
+«Rubyとも対話したいp:話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacrdttる』
+!!! [[Yoichi Kobayashi|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/kimihafhi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/k
+
+、実際にオヤジギャクが流れる電話番号を取得、公¯、「和室でぬるくRubyをもくもくする」[[ぬRuby|http://nuruby.org/]]の紹介と、地域Ruby会議に参加することの良さについて語ってくださいました。ぬRubyの魅力がしっかり伝わったようで、LT後はぬRubyãLighティãコミã『RyukyuFrogsとLexues Academyの話』Rubyとも対話したいと考えました。
+comint.elとinf-ruby.elを使ってEmacsた。
+«Rubyとも対話したいp:話したいと考えました。
+comih Academyの話』Rubyとも対話したいと考ubてEmacrdttる』
+!!! [[Yoichi Kobayashi|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/kimihafhi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/k
+
+ã05/461]]
+
+https://raw.githubusercontent.com/k
+
+、実際にオヤジギャクが流れる電話番号を取得、公¯、「和室でぬるくRubyをも、が流れる電話番号を取得、公¯、「和室でぬるくRubyをもく遫ついて語ってくださいました。ぬRubyの魅力がしっかり伝わったようで、LT後はぬRubyãLighティãコミã『RyukyuFrogsとLexues Academyの話』ã¼わったようで、LT後はぬRubyãLighティãコミã『Ryubと考えました。
+comint.elとinf-ruby.elを使ってEmacsた。
+«Rubyとも対話したいp:話したいと考えまし㭦!!! [[Yoichi Kobayashi|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/kimihafhi-kobayashi/89/205/461]]
+
+https://raw.githubusercontent.com/k
+
+ã05/461]]
+
+https:s://raw.githubusercontent.com/k
+
+ã05/461]]
+
+https://raw.githubusercontent.com/k
+
+、実際にオヤジギャクが流れる電話番号を取得、å//raw.githubusercontent.com/k
+
+、実際にオヤlv流れる電話番号を取得、公¯、「和室でぬる¸館にRuby本を！|http://www.slideshare.net/_siman/ruby-31905851]]』(発表者:[[@_simanman|https://twitter.com/_simanman]])
+
+
+* 『[[Mac Friends|http://macfriends.net]]』([[資料|https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi]] 発表者:[[@enkw_|https://twitter.com/enkw_]])
+
+
+* 『[[instag|http://instag.herokuapp.com]]』(発表者:[[@nanophate|https://twitter.com/nanophate]])
+
+
+* 『[[Once-Tech|http://once-tech.net]]』(発表者:[[@motikan2010|https://twii|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+https://raw.gith/rttps://raw.githubusercontent.com/k
+
+ã05/461]]
+
+https:s://raw.githubusercontent.com/k
+
+ã05/461]]
+
+https://raw.githubuserconi-om/k
+
+、実際にオヤジギャクが流れる電話番号を取得、å//raw.githubusercontent.com/k
+
+、実際にオヤlvæional_rubykaigi_report/okinawarubykaigi01_hiki/kakutani.jpg
+
+[[日本Rubyの取得、公¯、「和室でぬる¸館にRuby本を！|http://www.slideshaom|http://macfriends.net]]』([[資料|https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi]] 発表者:[[@enkw_|https://twitter.com/enkw_]])
+
+
+* 『[[instag|http://inst]]cfriends-in-okinawa-ruby-kaigi]] 発表者:[[@enkw_|https://twitter.com/eã])
+
+
+* 『[[instag|http://instag.herokuapp.com]]』(発表者:[[@nanophate[/twii|http://www.linkedin.com/pub/yoichi-kobayashi/89/205/461]]
+
+https://raw.gith/rttps://raw.githubusercontent.com/k
+
+ã05/461]]
+
+https:s://raw.githubusercontent.com/k
+
+ã05/461]]Rubyの取得、公¯、「和室でぬる¸館にRuby本を！|http://www.slideshaom|http://macfriends.net]]』([[資料|https://speakerdeck.com/enkw/number-macfriends-in-okinawa-ruby-kaigi]] 発表者:[[@enkw_|https://twitter.com/enkw_]])
+
+
+* 『[[instag|http://inst]]unjisatoshi]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/gunjisatoshi.jpg
+
+沖縄のRubyistもお世話になっている、[[Rubyist Magazine|http://magazine.rubyist.net/]]、略称「るびま」の話。
+なんと今年の9月に10周年になるそうです。
+
+* Rubyist Magazineの編集プロセス
+* あなたにも出来る貢献
+
+についてお話してくださいました。
+
+進捗管理は[[GitHub Issues|https://github.com/rubima/rubima/issues]]をWatchすm/enkw/number-macfriends-in-okinawa-ruby-kaigi]] 発表者:[[@enkw_|https://twitter.com/enkw_]])
+
+
+* 『[[instag|http://inst]]unjisatoshi]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/gunjisatoshi.jpg
+
+沖縄のRubyistもお世話になっている〸å//inst]]unjisatoshi]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_r ãbima/img-size500/articles/draft/regional_rubykaigi_report/okinawardegi01_hiki/gunjisatoshi.jpg
+
+沖縄のRubyistもお世話になっていã])
+!!! [[@kbaba1001|https://twitter.com/kbaba1001]]
+
+https://raw.githubusercon¹´になるそうです。
+
+* Rubyist Magazineの編集プロセス
+* あなたにも出来る貢献
+
+につい.jなたにも出来る貢献
+
+についてお話してくださいãuている〸å//inst]]unjisatoshi]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_r ãbima/img-size500/articles/draft/regional_rubykaigi_report/okinawardegi01_hiki/gunjisatoshi.jpg
+
+沖縄のRubyistもお世話になっていã])
+!!! [[@kbaba1001|https://twitter.com/kbaba1001]]
+
+https://raw.githubusercon¹´になるそうです。
+
+* Rubyist Magazineの編集プロセス
+* あなたにも出来る貢献
+
+につい.jなたにも出来るer.com/moro]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/moro.jpg
+
+RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジックをテストしやすくなる!楽しくなる!という話でした。
+
+çtps://raw.githubusercon¹´になるそうです。
+
+* Rubyist Magazineの編集プロセス
+* あなたにも出来る貢献
+
+につい.jなたにも出来るer.com/moro]]
+
+::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/moro.jpg
+
+RSpecのカスタムマッチャーで、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジã[neの編集プロセス
+* あなたにも出来る貢献
+
+についs.ubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/moro.jpg
+
+RSpecのカスタムマッチャーで、アプリケーã!report/okinawarubykaigi01_hiki/moro.jpg
+
+RSpecのãッチャーで、アプリケーションロジックをテã/ための語彙を作ると、アプリケーションロジックをãしやすくなる!楽しくなる!という話でした。
+
+çtps://ra/mthubusercon¹´になるそうです。
+
+* Rubyist Magazineの編集プロセãt.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/moro.jpg
+
+RSpecのカスタムマッチャーで、アプリケーションロジックをã§、アプリケーションロジックをテストするための語彙を作ると、アプリケーションロジã[neの編集プロセタèと、アプリケーションロジã[neの編集プロセス
+* あなãプロセス
+* あなたにも出来る貢献間内に処理が完了することを保証するリアルタイム性が満たせていることが組み込み開発では重要です。
+
+mrubyではRubyの強みであるGCによるメモリ管理を生かしつつ、リアルタイム性を両立するため、GCが一定時間以内に完了する「インクリメンタルGC」を採用しているとのことでした。
+
+mrubyのコードはRiteBinaryと呼ばれるバイトコードに変換され、仮想マシン上でプログラムを実行します。
+そのため書くハードウェア向けの仮想マシン作ってしまえば、mrubyプログラムをPC上でもマイコン上でも全く同じコードを動かすことが可能となります。
+
+また田中先生が大学で行っている研究として、mrubyに特化したハードウェアの開発の紹介がありました。
+研究の例としてmrubyのメソッド呼び出し時に頻繁に使われるハッシュ関数をLSIチップ上で実装し、文字列操作を行うプログラムの性能を20%上昇させることに成功したとのことでした。
+
+実際にデモを交えながらの講演の様子は、上記の動画リンクでも見ることが可能です。
