@@ -65,7 +65,7 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 
 ::https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/libkinjo.jpg
 
-Rubyではirbやpryを使って対話式にプログラムを記述することが出来ますが、@libkinjoさんはEmacsのscratchバッファでelispと対話するようにRubyとも対話したいと考えました。
+Rubyではirbやpryを使って対話的にプログラムを記述することが出来ますが、@libkinjoさんはEmacsのscratchバッファでelispと対話するようにRubyとも対話したいと考えました。
 comint.elとinf-ruby.elを使ってEmacsバッファ内でRubyのコードを実行し、結果を受け取るデモを実際に動かして頂きました。
 
 「scratchバッファはEmacsと対話する聖域（サンクチュアリ）」や「Emacsはロマンの積み木」などカッコいい名言で会場を盛り上げて頂きました。
