@@ -57,7 +57,7 @@ https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/reg
 https://raw.githubusercontent.com/kimihito/rubima/img-size500/articles/draft/regional_rubykaigi_report/okinawarubykaigi01_hiki/bash07.jpg
 
 ログ収集ツールとして注目される[[fluentd|http://fluentd.org]]を使い、バッチ業務をストリーム処理化する手法を紹介して頂きました。
-通常はログ収集のみにつかわれることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
+通常はログ収集のみに使われることが多いfluentdですが、入出力のプラグインを自作することで解析されたwebストリームを受けて進捗確認のツールとして使用することが出来るそうです。
 プラグインは[[RubyGem|https://www.ruby-lang.org/ja/libraries/]]の形式で導入することが出来るため、手軽に機能を追加出来るとおっしゃっていました。
 
 !! 『Emacsの普通の使い方』([[資料|http://kinjo.github.io/okrk01/#/title]])
